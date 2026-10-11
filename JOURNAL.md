@@ -3,7 +3,7 @@ title: "uranus-fpga-board"
 github: "https://github.com/ChoccoAerospace/uranus-fpga-board/tree/main"
 description: "Found out about FPGAs and thought they were very cool—decided to try making a board for a nice one. Calling it Uranus because Uranus is a goated planet (YOOR-uh-nús)"
 created_at: "2026-10-04"
-total_time: "25h 30m"
+total_time: "33h 50m"
 ---
 
 # October 4, 2026: FPGAs are Actually Pretty Hype
@@ -138,3 +138,25 @@ I am now going back to the standardized method because  I don't know what the fu
 ![RAM with an unrouted oscillator](https://github.com/Silllies/uranus-fpga-board/blob/main/images/ramWOscillator.png)
 
 **Total time spent: 6h 10m**
+
+___
+
+# October 11, 2026: Redo, again
+
+I thought I would change my journal style up a bit to make it more involved, so I will actively be journaling as I work. I will also include what I want to accomplish today
+
+- Bring the FMC up to ANSI/VITA 57 standards
+- Connect the whole JTAG converter system
+- Begin work on power distribution
+
+I began assigning the correct pin labels, but then got side tracked with the VADJ pins. I think I will use a simple linear regulator with the control voltage coming from a PWM module in the FPGA passed through an RC filter.
+
+I also got side tracked with LVDS and skew. After all my research, I have realized I don't need anything else, I can just use my 200 MHz clock from the memory interface for deskew
+
+I just realized when I set out these goals, I forgot about the whole JTAG Converter, which has a decent amount of pins that needs care for connecting. I might postpone the power supply to tomorrow.
+
+Well I had a lot less time than I expected today. I attached global labels to all the pins on the FMC side. That is really all. Most of my time was spent researching the more theory how of how to work all of these pins. One such thing I learned about was why there are JTAG pins on the connector. It is there so that the peripheral board can know what is up with the fpga board and work properly. I also realized I need another usb connector, as I need a way to output the processed data from the fpga.
+
+![The FMC schematic with the LPC pins connected to their labels](https://github.com/Silllies/uranus-fpga-board/blob/main/images/fmcLpcPinout.png)
+
+**Total time spent: 2h 10m**
