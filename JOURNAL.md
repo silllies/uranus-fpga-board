@@ -123,7 +123,7 @@ Actually, as I am writing this, I think I might just do a LPC connector. Like I 
 
 ___
 
-# October 10, 2026: TBD
+# October 10, 2026: Planned the FMC connections
 
 ![Updated FMC pin jobs](https://github.com/Silllies/uranus-fpga-board/blob/main/images/proprietaryFmc.png)
 
