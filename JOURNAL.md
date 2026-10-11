@@ -120,3 +120,21 @@ I also thought longer and harder about what I want this project to be. I started
 Actually, as I am writing this, I think I might just do a LPC connector. Like I said earlier, this board is being designed for a few specific purposes in mind, and those purposes don't need a whole HPC connector.
 
 **Total time spent: 4h 30m**
+
+___
+
+# October 10, 2026: Planned the FMC connections
+
+![Updated FMC pin jobs](https://github.com/Silllies/uranus-fpga-board/blob/main/images/proprietaryFmc.png)
+
+I am sticking with the HPC connector because it is cheaper than the LPC connector. I also realized that I don't have to follow the standards set in place because I am no longer designing this board to be all encompasing. For the mezzanine card side, the LPC connectors are cheaper, so I will only use the pins on the HPC that an LPC uses.
+
+I began planning the routing of all the pins. I first looked at a map of the chip to determine which banks I should prioritize, then I started mapping out where all of the pin pairs are at in those banks. Quickly into that, though, I realized the futility of it all and that I am going to have to length match no matter what, so I just assigned signals based on the order of the pins in the schematic. I also added more components to my schematic, including the JTAG Converter, flash storage, USB-C connector, 200 MHz crystal oscillator for the DDR3 RAM, a 12 MHz crystal for the JTAG Converter, an EEPROM for the vivado config, and a USB ESD protector. I have not routed them yet, though.
+
+I am now going back to the standardized method because  I don't know what the future will bring, and I want to be able to do cool stuff. Guhhh. I am not an efficient worker. And I also often have a cat on my lap, so that further reduces efficiency. For tommorow, though!
+
+![FPGA w/ decoupling caps](https://github.com/Silllies/uranus-fpga-board/blob/main/images/fpgaWDecoupling.png)
+
+![RAM with an unrouted oscillator](https://github.com/Silllies/uranus-fpga-board/blob/main/images/ramWOscillator.png)
+
+**Total time spent: 6h 10m**
