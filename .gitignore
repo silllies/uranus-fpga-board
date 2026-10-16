@@ -1,24 +1,50 @@
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-Desktop.ini
-*~
+# Temporary files
+*.000
 *.bak
-*.swp
-*.swo
-.directory
-.vscode/
-.idea/
-*.sublime-workspace
-*.sublime-project
-*.log
-*.tmp
-secrets.json
-.history
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*-cache*
+*-bak
+*-bak*
+*~
 ~*
+_autosave-*
+\#auto_saved_files\#
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+~*.lck
+\#auto_saved_files#
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
+
+# Archived Backups (KiCad 6.0)
+**/*-backups/*.zip
+
+# Local git-based history (KiCad 9.0+)
+.history
+
+# Local project settings
 *.kicad_prl
+
+# Log files
+*.log
+
+# Backups
 _restore_backup*
+
+# Mine >:3
+secrets.json
+

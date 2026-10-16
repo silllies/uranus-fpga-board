@@ -1,9 +1,9 @@
 ---
 title: "uranus-fpga-board"
-github: "https://github.com/ChoccoAerospace/uranus-fpga-board/tree/main"
+github: "https://github.com/silllies/uranus-fpga-board"
 description: "Found out about FPGAs and thought they were very cool—decided to try making a board for a nice one. Calling it Uranus because Uranus is a goated planet (YOOR-uh-nús)"
 created_at: "2026-10-04"
-total_time: "33h 50m"
+total_time: "39h 20m"
 ---
 
 # October 4, 2026: FPGAs are Actually Pretty Hype
@@ -160,3 +160,28 @@ Well I had a lot less time than I expected today. I attached global labels to al
 ![The FMC schematic with the LPC pins connected to their labels](https://github.com/Silllies/uranus-fpga-board/blob/main/images/fmcLpcPinout.png)
 
 **Total time spent: 2h 10m**
+
+___
+
+# October 16, 2026: New connector
+
+I thought I would just take a single day break, but that ballooned into a 5 day break. Now I am back and ready. During my break, I did some thinking and realized that I wanted the FPGA to be able to connect to a THIRD device, and have settled on a 2x25 IDC box header connector. This one does not have a standard, so it is much more loosey goosey. Today, I hope to:
+
+- assign what pins do what for the new connector
+- finish connecting the FMC
+
+And my stretch goals:
+
+- Add that other connector that has yet to be decided what it will be. Very simple one.
+
+I assigned the pins for the new connector, which did not take long at all. The FMC is being annoying again. I have been messing around with the parts on the pcb, and I was trying to assign pins based on proximity to minimize annoying length matching. The annoying thing is that the FPGA doesn't exactly advertise what pins are differential pairs, so I have to manually look them up every time. I may also want to have the FPGA swap the signals at the pins because connecting P to P and N to N makes some lines crossing.
+
+![Very early PCB layout](https://github.com/silllies/uranus-fpga-board/images/earlyPCB.png)
+
+I just learned that the grave button highlights all pins in the same net; I think this is the happiest I have ever been
+
+The cat is 100% at fault for this, but I did not finish connecting the FMC to the FPGA. I got rows G and H, as they were the ones closest to banks 16, 17, and 18. I want to use banks 16, 17, and 18 because they are on the opposite side of banks 32, 33, and 34, which are the RAM banks. The new connector will probably connect to banks 14 and 15. Banks 14 and 15 do have special purposes, though. Bank 15's IO pins connect to the internal ADC, but I have no plans on using it, so I don't need to worry about it. Bank 14 is for working with external flash during boot. I don't need to worry about fast boot times, so the majority of the pins are normal. For the second, basic connector, it can really go anywhere. I might use Bank 13.
+
+![Schematic of the new connector](https://github.com/silllies/uranus-fpga-board/images/auxiliaryConnector.png)
+
+**Total time spent: 5h 30m**
