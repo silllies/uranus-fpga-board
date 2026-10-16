@@ -176,12 +176,12 @@ And my stretch goals:
 
 I assigned the pins for the new connector, which did not take long at all. The FMC is being annoying again. I have been messing around with the parts on the pcb, and I was trying to assign pins based on proximity to minimize annoying length matching. The annoying thing is that the FPGA doesn't exactly advertise what pins are differential pairs, so I have to manually look them up every time. I may also want to have the FPGA swap the signals at the pins because connecting P to P and N to N makes some lines crossing.
 
-![Very early PCB layout](https://github.com/silllies/uranus-fpga-board/images/earlyPCB.png)
+![Very early PCB layout](https://github.com/silllies/uranus-fpga-board/blob/main/images/earlyPCB.png)
 
 I just learned that the grave button highlights all pins in the same net; I think this is the happiest I have ever been
 
 The cat is 100% at fault for this, but I did not finish connecting the FMC to the FPGA. I got rows G and H, as they were the ones closest to banks 16, 17, and 18. I want to use banks 16, 17, and 18 because they are on the opposite side of banks 32, 33, and 34, which are the RAM banks. The new connector will probably connect to banks 14 and 15. Banks 14 and 15 do have special purposes, though. Bank 15's IO pins connect to the internal ADC, but I have no plans on using it, so I don't need to worry about it. Bank 14 is for working with external flash during boot. I don't need to worry about fast boot times, so the majority of the pins are normal. For the second, basic connector, it can really go anywhere. I might use Bank 13.
 
-![Schematic of the new connector](https://github.com/silllies/uranus-fpga-board/images/auxiliaryConnector.png)
+![Schematic of the new connector](https://github.com/silllies/uranus-fpga-board/blob/main/images/auxiliaryConnector.png)
 
 **Total time spent: 5h 30m**
