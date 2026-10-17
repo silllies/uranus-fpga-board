@@ -3,13 +3,13 @@ title: "uranus-fpga-board"
 github: "https://github.com/silllies/uranus-fpga-board"
 description: "Found out about FPGAs and thought they were very cool—decided to try making a board for a nice one. Calling it Uranus because Uranus is a goated planet (YOOR-uh-nús)"
 created_at: "2026-10-04"
-total_time: "39h 20m"
+total_time: "48h 40m"
 ---
 
 # October 4, 2026: FPGAs are Actually Pretty Hype
 <!-- fabricate:entry 138 -->
 
-![Pinout of Xilinx Kintex 7 XC7K160T-2FFG676C](https://github.com/Silllies/uranus-fpga-board/blob/main/images/160Tpinout.jpg)
+![Pinout of Xilinx Kintex 7 XC7K160T-2FFG676C](images/160Tpinout.jpg)
 
 Okay, the most important part of an FPGA board is the FPGA, so what is it, exactly? An FPGA stands for "Field-Programmable Gate Array," and if you are like me, that provides no usable information. FPGAs are a type of Programmable Logic Device (PLD). Other PLDs, like CPLDs, typically have a coarser, simpler architecture than an FPGA. FPGAs use Hardware Description Languages (HDLs) to control how their many programmable logic blocks work with other blocks to perform functions. The Field Programmable part of an FPGA comes from how its wiring can change based on instructions from something written in an HDL, as opposed to an Application-Specific Integrated Circuit (ASIC) that cannot change its logic wiring. FPGAs are often used to prototype before going all in on production of an ASIC. In my case, I am using an FPGA because I want to be able to change it to whatever I want and don't want to order a huge load of ASICs. An FPGA is NOT a microcontroller, but you can describe its hardware (lol) to make it work like a microcontroller, or even a processor.
 
@@ -28,7 +28,7 @@ ___
 
 ## Brainthinks from the same day
 
-![Mezzanine connector](https://github.com/Silllies/uranus-fpga-board/blob/main/images/mezzanine.jpeg)
+![Mezzanine connector](images/mezzanine.jpeg)
 
 I don't think headers would be the best to preserve signal integrity. Upon doing more research, it sounds like edge connectors or mezzanine connectors will be the best. Both for signals and power. Edge connectors put the card at a 90-degree angle, while mezzanine connectors put it parallel. I think a mezzanine connector would be better, even for power. The large number of pins on a mezzanine connector helps reduce power quality degradation by lowering parasitic inductance, canceling out the magnetic field (if PWR and GND are alternated), and having a large cumulative surface area. Surface area is important because, while power will be sent as DC, the FPGA will pull power in very fast, erratic pulses, creating AC noise. I will have a mezzanine connector for both power and a peripheral board for testing.
 
@@ -40,7 +40,7 @@ ___
 # October 5, 2026: That's, ummmm, a lot of pins
 <!-- fabricate:entry 152 -->
 
-![Schematic of the previously mentioned Kintex 7 160T chip](https://github.com/Silllies/uranus-fpga-board/blob/main/images/kintexSchematic.png)
+![Schematic of the previously mentioned Kintex 7 160T chip](images/kintexSchematic.png)
 
 I mean I did say that PCB design is comforting, but that was with a simple board that connects some preassembled boards. Now I have to learn what all these pins mean.
 
@@ -50,7 +50,7 @@ NEVERMIND! LCSC sells an XC7K325T-3FFG900E for nearly the same price! I do not n
 
 Okay, there are a lot of power lines. I don't understand it all, but there are several voltages the chip takes. VCCO pins can take many voltages, depending on the interface. There is also a lot of stuff for the GTX transceivers, which I also don't fully get. I haven't gotten to labelling all the IO pins yet, (which is more than the 646-ball). I did route the GND, though!
 
-![Schematic of the 325T](https://github.com/Silllies/uranus-fpga-board/blob/main/images/325Tschematic.png)
+![Schematic of the 325T](images/325Tschematic.png)
 
 
 ___
@@ -60,7 +60,7 @@ ___
 # October 6, 2026: RAMpocalypse
 <!-- fabricate:entry 167 -->
 
-![RAM chip](https://github.com/Silllies/uranus-fpga-board/blob/main/images/W632GU6NB-11.png)
+![RAM chip](images/W632GU6NB-11.png)
 
 Found some RAM I am fine with using. 4 chips of 16 bit DDR3L 933 MHz. Each chip is $11, which I find quite insane. $11 is also the lowest price I found during my searching. The chip is the Winbon W632GU6NB-11, sourced from LCSC, obviously. I think I will use Aisler as they are based in Europe, have a minimum assembly count of 1 (I believe), and can source their parts from LCSC. I will probably see if they can pre-order the FPGA and hold it for me as I design it, as there is only 90 left. I will also have to ask on slack. Parts and manufacture will probably be more expensive, but it will be cheaper than assembling 2 boards from JLCPCB.
 
@@ -72,7 +72,7 @@ Finished schematicizing (???) the 325T and the 4 RAM chips. I initially tried to
 
 Upon Looking at the schematic again, I realized that people don't design schematics like this. I will probably make it look passable tomorrow
 
-![Wacky schematic](https://github.com/Silllies/uranus-fpga-board/blob/main/images/325TnRamSchem.png)
+![Wacky schematic](images/325TnRamSchem.png)
 
 **Total time spent: 6h**
 
@@ -81,7 +81,7 @@ ___
 
 # October 7, 2026: Restart!
 
-![Nicer RAM schematic](https://github.com/Silllies/uranus-fpga-board/blob/main/images/newRamSchem.png)
+![Nicer RAM schematic](images/newRamSchem.png)
 
 I will be making the schematic readable today, but right now, I found a cheaper RAM option. The Winbon W63**1**GU6NB-11 is less than half the price of the 632, but also has half the storage. I have also set out other components I want to include on my board: HDMI port, MicroSD card slot, some LEDs, and some DIP switches.
 
@@ -93,13 +93,13 @@ ___
 
 # October 8, 2026: New day, new RAM
 
-![Basic FPGA Schematic](https://github.com/Silllies/uranus-fpga-board/blob/main/images/newNewRamSchem.png)
+![Basic FPGA Schematic](images/newNewRamSchem.png)
 
 Realized my RAM was out of stock. found a cheap RAM chip and redesigned the schematic. This one looks even better! It also has decoupling capacitors. I also got a scare when searching for a crystal oscillator, thinking I would have to get a custom one, but realized MIG was being MIG and I could change the RAM speed to get a more favorable frequency.
 
 RAM schematic is all done. FPGA memory interface is almost done, I just need to do some power thingies like decoupling. I also began setting up my mezzanine connector. The really nice thing about it is that there is a standard called FMC (FPGA Mezzanine Connector, wow!). I will be using the FPGA's GTX transceivers, so I have to use the HPC (High Pin Count) variant. Because I want to be extra, I felt the need to use 8 GTX lanes (Out of my 12) for this FMC, meaning I need two of them.
 
-![more pins!!!](https://github.com/Silllies/uranus-fpga-board/blob/main/images/iLoveFMCHPC.png)
+![more pins!!!](images/iLoveFMCHPC.png)
 
 You might be able to see the new problem here. I'll figure something out (add a third?). The specific FMC I am using is the ASP-134488-01. 
 
@@ -111,7 +111,7 @@ ___
 
 # October 9, 2026: New day, reday
 
-![Schematic for the FMC HPC](https://github.com/Silllies/uranus-fpga-board/blob/main/images/fmcHpcSchem.png)
+![Schematic for the FMC HPC](images/fmcHpcSchem.png)
 
 Get it? It's like a play on words of "redo". Anyways, I'm not using 2 HPC connectors, just 1. Good thing I never started anything intense. I did attached the signal names to all the pins on the FMC to later attach to the FPGA. To find out which pins I'm supposed to attach to what signals, I did some research and found the KC705 Evaluation Board, which documents its full pin assignments. It has an HPC and LPC connector, but many of their pins are left unconnected, so I can't copy it line for line, I will probably group pins by differential pair, routing them to the closest banks available. Higher priority data lines will be assigned to banks closer to the connector's side of the FPGA, which will be on the opposite side from the RAM.
 
@@ -125,7 +125,7 @@ ___
 
 # October 10, 2026: Planned the FMC connections
 
-![Updated FMC pin jobs](https://github.com/Silllies/uranus-fpga-board/blob/main/images/proprietaryFmc.png)
+![Updated FMC pin jobs](images/proprietaryFmc.png)
 
 I am sticking with the HPC connector because it is cheaper than the LPC connector. I also realized that I don't have to follow the standards set in place because I am no longer designing this board to be all encompasing. For the mezzanine card side, the LPC connectors are cheaper, so I will only use the pins on the HPC that an LPC uses.
 
@@ -133,9 +133,9 @@ I began planning the routing of all the pins. I first looked at a map of the chi
 
 I am now going back to the standardized method because  I don't know what the future will bring, and I want to be able to do cool stuff. Guhhh. I am not an efficient worker. And I also often have a cat on my lap, so that further reduces efficiency. For tommorow, though!
 
-![FPGA w/ decoupling caps](https://github.com/Silllies/uranus-fpga-board/blob/main/images/fpgaWDecoupling.png)
+![FPGA w/ decoupling caps](images/fpgaWDecoupling.png)
 
-![RAM with an unrouted oscillator](https://github.com/Silllies/uranus-fpga-board/blob/main/images/ramWOscillator.png)
+![RAM with an unrouted oscillator](images/ramWOscillator.png)
 
 **Total time spent: 6h 10m**
 
@@ -157,7 +157,7 @@ I just realized when I set out these goals, I forgot about the whole JTAG Conver
 
 Well I had a lot less time than I expected today. I attached global labels to all the pins on the FMC side. That is really all. Most of my time was spent researching the more theory how of how to work all of these pins. One such thing I learned about was why there are JTAG pins on the connector. It is there so that the peripheral board can know what is up with the fpga board and work properly. I also realized I need another usb connector, as I need a way to output the processed data from the fpga.
 
-![The FMC schematic with the LPC pins connected to their labels](https://github.com/Silllies/uranus-fpga-board/blob/main/images/fmcLpcPinout.png)
+![The FMC schematic with the LPC pins connected to their labels](images/fmcLpcPinout.png)
 
 **Total time spent: 2h 10m**
 
@@ -176,12 +176,41 @@ And my stretch goals:
 
 I assigned the pins for the new connector, which did not take long at all. The FMC is being annoying again. I have been messing around with the parts on the pcb, and I was trying to assign pins based on proximity to minimize annoying length matching. The annoying thing is that the FPGA doesn't exactly advertise what pins are differential pairs, so I have to manually look them up every time. I may also want to have the FPGA swap the signals at the pins because connecting P to P and N to N makes some lines crossing.
 
-![Very early PCB layout](https://github.com/silllies/uranus-fpga-board/blob/main/images/earlyPCB.png)
+![Very early PCB layout](images/earlyPCB.png)
 
 I just learned that the grave button highlights all pins in the same net; I think this is the happiest I have ever been
 
 The cat is 100% at fault for this, but I did not finish connecting the FMC to the FPGA. I got rows G and H, as they were the ones closest to banks 16, 17, and 18. I want to use banks 16, 17, and 18 because they are on the opposite side of banks 32, 33, and 34, which are the RAM banks. The new connector will probably connect to banks 14 and 15. Banks 14 and 15 do have special purposes, though. Bank 15's IO pins connect to the internal ADC, but I have no plans on using it, so I don't need to worry about it. Bank 14 is for working with external flash during boot. I don't need to worry about fast boot times, so the majority of the pins are normal. For the second, basic connector, it can really go anywhere. I might use Bank 13.
 
-![Schematic of the new connector](https://github.com/silllies/uranus-fpga-board/blob/main/images/auxiliaryConnector.png)
+![Schematic of the new connector](images/auxiliaryConnector.png)
 
 **Total time spent: 5h 30m**
+
+___
+
+# October 17, 2026: Finishing this damn connector (WRONG)
+
+Today I want to
+
+- Finish connecting the FMC
+- Find new connector and assign nets to it
+- Begin work on the JTAG converter stuffs
+
+I just learned about clock regions on the FPGA. I was wondering what the difference between SRCC and MRCC was, as they are both clock capable. MRCC is Multi-region clock capable while SRCC is single-region clock capable. Well, what are the regions? The chip is split in half into two columns and each column is divided into 5 rows so that each region is 50 pins high. Wait, 50 pins high? I thought the FPGA chip was only 30x30! While the BGA is 30x30, the silicon is not. 50 pins high is the height on the silicon. Luckily, every I/O bank has 50 pins, so, for those banks, one clock region corresponds to one bank. I checked what pin type MIG assigned the DDR clock to and was surprised to see it was an SRCC pin. The memory interface spans across all 3 HP banks, each with their own clock region. However, for reasons that I don't really understand what they mean, but will still tell you, its all good. It is okay because it doesn't use Multi-Region Routing Buffers, it routes directly to a Clock Management Tile (CMT), and that CMT makes a reference clock thing and does something with phasers. It only works when the signal is being distributed to other regions in the same column, which it is.
+
+I just spent way to long trying to prepend FMC_ to all of the FMC connector labels. I got it to work, but I just realized I never renamed the labels on the FPGA side.
+
+I FINISHED CONNECTING THE IO PINS! Now I just need to figure out dedicated clock lines, VREF, PRSNT, GTX stuffs, JTAG pins, and other miscellaneous stuff. I would also like to revise a previous statement I made, saying that following the FMC standards would allow any expansion card to plug into my FPGA board. Following the standards gives me the highest chance of having an expansion card work. The standards only standardize the pin assignments of the FMC, not how the pins connect to the FPGA.
+
+I have finished connecting the power protection for the FMC. It was a very interesting process. So, except for +3V3AUX, the power lines can only go live when the PRSNT pin is low. It is tied to ground on the mezzanine side, and it is tied to +3V3 on carrier side. For the +3V3 and VADJ lines on the FMC, which I named +3V3_P and VADJ_P, I used a switch with active low control to stop the power if the enable pin reads high. For +12V0, I opted for a P-channel and N-channel MOSFET because it is cheaper than using a dedicated switch capable of the voltage with active low control. The N-channel inverts the PRSNT signal for the P-channel MOSFET. All of these 3 protected lines also need to be stable to trigger the Power Good signal, which accomplished with a 3-input positive-AND gate.  
+I also connected the GTX pins. For this, I used the KC705 evaluation board for reference. It has an LPC FMC, and its GTX transmit/receive pins connect to GTX bank 117 and its REFCLK goes to 116. Because I don't have many connectors as the KC705, I connected the transmit/receive pins and the REFCLK to bank 118. I chose it because it will be the closest to the FMC. Now all I have left is the dedicated clock pins and the VADJ source.
+
+Nevermind, I redid the power protection. I realized the switch I chose for VADJ wouldn't work for the complete range of VADJ. The only one I could find which had protection and the complete range was active high enabled, so I repurposed the inverter for +12V0 to serve as just the general inverter. While I was at it, I looked for a +12V0 switch and replaced the MOSFET.
+
+Okay, wow, it just keeps getting more complicated. I replaced the 3V3 switch with an active high enabled one because it was cheaper. My power good system was just wrong. Power needs to be properly settled, not just on. I found some window comparators. However, the window is based on resistors, which is fine, and the docs give their calculation formulas, but VADJ varies and requires different resistors for different voltages. Luckily, VADJ can only be some specific voltages in the 1V2 to 3V3 range, so I found a switch to toggle between the first resistor. After the first resistor, it is all the same, no matter what voltage you use. I need to connect the controls for the switch, though.
+
+So, I did not finish connecting the FMC (Power good needs work, I forgot to connect the dedicated clock pins), and I never got to the new port or JTAG. Power protection and power good took so long because of all the different ways to handle it and how every chip calls for a different thing (and also because I'm not good at this).
+
+![Furthest I got on the power protection and power good systems today](images/fmcPowerProtection.png)
+
+**Total time spent: 9h 20m**
