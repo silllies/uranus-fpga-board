@@ -186061,145 +186061,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -191392,7 +191253,7 @@
 		)
 		(uuid "ffd9e6de-db42-4030-aa5c-47c7f78451ad")
 	)
-	(global_label "DDR_WE_N"
+	(global_label "~{DDR_WE}"
 		(shape output)
 		(at 358.14 68.58 180)
 		(fields_autoplaced yes)
@@ -191584,7 +191445,7 @@
 			)
 		)
 	)
-	(global_label "DDR_CS_N"
+	(global_label "~{DDR_CS}"
 		(shape output)
 		(at 358.14 43.18 180)
 		(fields_autoplaced yes)
@@ -192424,30 +192285,6 @@
 			)
 		)
 	)
-	(global_label "FMC_VREF_A_M2C"
-		(shape output)
-		(at 808.99 29.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4633b6a5-5b01-4cc4-a4d2-c17e0ae37a6e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 823.5261 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "DDR_DQ40"
 		(shape bidirectional)
 		(at 195.58 88.9 180)
@@ -193048,7 +192885,7 @@
 			)
 		)
 	)
-	(global_label "DDR_RAS_N"
+	(global_label "~{DDR_RAS}"
 		(shape output)
 		(at 317.5 142.24 0)
 		(fields_autoplaced yes)
@@ -193216,7 +193053,7 @@
 			)
 		)
 	)
-	(global_label "DDR_CAS_N"
+	(global_label "~{DDR_CAS}"
 		(shape output)
 		(at 317.5 116.84 0)
 		(fields_autoplaced yes)
@@ -196073,84 +195910,6 @@
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/9b31d439-c2fe-44d5-bcd7-596f029a918d"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 816.61 39.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "023815e3-6cc0-4e98-ab80-1081652fd962")
-		(property "Reference" "#PWR037"
-			(at 816.61 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FMC_VREF_A_M2C"
-			(at 816.61 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 816.61 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 816.61 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 816.61 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "144e82f3-2089-4ec9-bb31-7e7bee20e5a2")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/9b31d439-c2fe-44d5-bcd7-596f029a918d"
-					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -205473,7 +205232,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3138c62b-df61-4132-961b-2e8a10db9554")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR04"
 			(at 58.42 401.32 0)
 			(hide yes)
 			(show_name no)
@@ -205533,7 +205292,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/9b31d439-c2fe-44d5-bcd7-596f029a918d"
-					(reference "#PWR05")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -208886,6 +208645,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V5")
+		(at 808.99 29.21 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44f83f4c-1425-4886-a3f5-4d60723934df")
+		(property "Reference" "#PWR037"
+			(at 805.18 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VADJ_P"
+			(at 812.8 29.2099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 808.99 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 808.99 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V5\""
+			(at 808.99 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "26ca1da8-7ab6-4493-8d44-777c76e5aedb")
+		)
+		(instances
+			(project "uranus-fpga-board"
+				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/9b31d439-c2fe-44d5-bcd7-596f029a918d"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 143.51 349.25 90)
 		(unit 1)
@@ -209053,7 +208891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47f4d2b1-7b16-483e-861b-7e448569e7e7")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR05"
 			(at 62.23 314.96 0)
 			(hide yes)
 			(show_name no)
@@ -209113,7 +208951,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/9b31d439-c2fe-44d5-bcd7-596f029a918d"
-					(reference "#PWR04")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -218481,6 +218319,86 @@
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/9b31d439-c2fe-44d5-bcd7-596f029a918d"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V5")
+		(at 699.77 156.21 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "911cd346-3c34-4715-a62d-df717705d3b0")
+		(property "Reference" "#PWR033"
+			(at 703.58 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VADJ_P"
+			(at 695.96 156.2099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 699.77 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 699.77 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V5\""
+			(at 699.77 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c0fc525c-4edd-471a-8248-5be6d4b2aa2f")
+		)
+		(instances
+			(project "uranus-fpga-board"
+				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/9b31d439-c2fe-44d5-bcd7-596f029a918d"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -227857,85 +227775,6 @@
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/9b31d439-c2fe-44d5-bcd7-596f029a918d"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V0")
-		(at 699.77 156.21 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d89b24b9-95a8-446b-a3f3-85d7ce66643e")
-		(property "Reference" "#PWR033"
-			(at 703.58 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+2V5"
-			(at 695.96 156.2101 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Renesas_UQFN-16_2x2mm_P0.4mm"
-			(at 699.77 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 699.77 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 699.77 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bd6584c7-cfcd-4869-9a21-9bcfb206dd83")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/9b31d439-c2fe-44d5-bcd7-596f029a918d"
-					(reference "#PWR033")
 					(unit 1)
 				)
 			)

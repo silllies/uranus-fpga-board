@@ -3,7 +3,7 @@ title: "uranus-fpga-board"
 github: "https://github.com/silllies/uranus-fpga-board"
 description: "Found out about FPGAs and thought they were very cool—decided to try making a board for a nice one. Calling it Uranus because Uranus is a goated planet (YOOR-uh-nús)"
 created_at: "2026-10-04"
-total_time: "48h 40m"
+total_time: "55h 40m"
 ---
 
 # October 4, 2026: FPGAs are Actually Pretty Hype
@@ -214,3 +214,17 @@ So, I did not finish connecting the FMC (Power good needs work, I forgot to conn
 ![Furthest I got on the power protection and power good systems today](images/fmcPowerProtection.png)
 
 **Total time spent: 9h 20m**
+
+___
+
+# October 18, 2026: Power, power, and more power
+
+I didn't get much done today. I reworked the power protection system because the one I made yesterday was bad. The 2 big things I did were protecting the always-on +3V3 and changing the resistor values. The resistor values had to change because some of them I copied down wrong or because I couldn't find ones in stock on LCSC. The always-on +3V3 line is there to power configuration thingamabobs on the mezzanine card side, so that they can send signals to the carrier card, so the carrier can properly configure full power. FMC standards limit this line to 110 mA, so I chose a regulator and set it to trigger a bit above that value. I also made all of the window comparators powered by +3V3 instead of the line they are monitoring to prevent a power failure of one of the protected lines being read as power good. That is possible because if the comparator is not supplied with enough power, both of its outputs will be high impedance, not driving power good low. And if +3V3 fails, power good will quickly go low, as it is pulled up by +3V3_P (which is supplied by +3V3). The switch also changed so that it would actually work for all values of VADJ. I added labels to the switch's address pins and added pull down resistors to all of them so that the switch would default to channel 1 if no input is received (unconnected).
+
+If you are wondering how I was able to do so little with so much time, today was just a whole bunch of thinking something new would work, then backtracking to find another, new solution that actually works. I don't have a list of the things I tried but failed, because I'm lazy, but I do remember trying various current limiters for the +3V3AUX before settling on the one I have now, if you wanted a specifc example.
+
+![power protection and power good system that is very slightly different from the last image](images/newFmcPowerProtection.png)
+
+I also messed around a bit more with the PCB editor. Not much got done, but I did experiment with routing differential pairs.
+
+**Total time spent: 7h**
