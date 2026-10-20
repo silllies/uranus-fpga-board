@@ -145,8 +145,8 @@
 		)
 	)
 	(sheet
-		(at 134.62 134.62)
-		(size 114.3 113.03)
+		(at 15.24 134.62)
+		(size 114.3 114.3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -159,9 +159,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "800651b2-5962-4199-b081-32599b035da2")
-		(property "Sheetname" "Power"
-			(at 134.62 133.9084 0)
+		(uuid "69c82f07-7ecd-4fb6-a628-adffb9ba2d4e")
+		(property "Sheetname" "IDC"
+			(at 15.24 133.9084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -171,8 +171,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "power.kicad_sch"
-			(at 134.62 248.2346 0)
+		(property "Sheetfile" "idc.kicad_sch"
+			(at 15.24 249.5046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -185,7 +185,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b"
-					(page "6")
+					(page "5")
 				)
 			)
 		)
@@ -237,6 +237,52 @@
 		)
 	)
 	(sheet
+		(at 254 134.62)
+		(size 114.3 114.3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c1057ce7-6c8d-4e8e-bc5f-5c8a3700fd3c")
+		(property "Sheetname" "Power"
+			(at 254 133.9084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 254 249.5046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "uranus-fpga-board"
+				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 254 15.24)
 		(size 114.3 114.3)
 		(exclude_from_sim no)
@@ -252,7 +298,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "cee8d822-652e-465d-acca-28eb7a6fb777")
-		(property "Sheetname" "High Speed IO"
+		(property "Sheetname" "FMC"
 			(at 254 14.5284 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -263,7 +309,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "highspeed.kicad_sch"
+		(property "Sheetfile" "fmc.kicad_sch"
 			(at 254 130.1246 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -329,7 +375,7 @@
 		)
 	)
 	(sheet
-		(at 15.24 134.62)
+		(at 134.62 134.62)
 		(size 114.3 114.3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -343,9 +389,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "d921dc71-75e5-4bd3-931c-5ccd6c981821")
+		(uuid "defa0a52-2b0b-49c4-9b4c-86a3a30ab038")
 		(property "Sheetname" "Misc Peripherals"
-			(at 15.24 133.9084 0)
+			(at 134.62 133.9084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -355,8 +401,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "peripherals.kicad_sch"
-			(at 15.24 249.5046 0)
+		(property "Sheetfile" "misc.kicad_sch"
+			(at 134.62 249.5046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -369,7 +415,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b"
-					(page "5")
+					(page "6")
 				)
 			)
 		)

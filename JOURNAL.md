@@ -3,7 +3,7 @@ title: "uranus-fpga-board"
 github: "https://github.com/silllies/uranus-fpga-board"
 description: "Found out about FPGAs and thought they were very cool—decided to try making a board for a nice one. Calling it Uranus because Uranus is a goated planet (YOOR-uh-nús)"
 created_at: "2026-10-04"
-total_time: "55h 40m"
+total_time: "60h 20m"
 ---
 
 # October 4, 2026: FPGAs are Actually Pretty Hype
@@ -13,13 +13,13 @@ total_time: "55h 40m"
 
 Okay, the most important part of an FPGA board is the FPGA, so what is it, exactly? An FPGA stands for "Field-Programmable Gate Array," and if you are like me, that provides no usable information. FPGAs are a type of Programmable Logic Device (PLD). Other PLDs, like CPLDs, typically have a coarser, simpler architecture than an FPGA. FPGAs use Hardware Description Languages (HDLs) to control how their many programmable logic blocks work with other blocks to perform functions. The Field Programmable part of an FPGA comes from how its wiring can change based on instructions from something written in an HDL, as opposed to an Application-Specific Integrated Circuit (ASIC) that cannot change its logic wiring. FPGAs are often used to prototype before going all in on production of an ASIC. In my case, I am using an FPGA because I want to be able to change it to whatever I want and don't want to order a huge load of ASICs. An FPGA is NOT a microcontroller, but you can describe its hardware (lol) to make it work like a microcontroller, or even a processor.
 
-**What makes an FPGA board a Tier 2 project, offering $250 in grant funding?**  
+**What makes an FPGA board a Tier 2 project, offering $250 in grant funding?**\
 While putting this in the same tier as a robot arm, handheld console, or battle bot might seem strange, as the others have far more physical possibilities and polish (maybe), an FPGA board is very complex and requires precise PCB design. FPGAs often require several different voltages, and they have so many pins that a 4- or 6-layer PCB is necessary, as well as DDR RAM if you want storage that is slightly longer than the BRAM. Obviously, there is more, but I don't know enough.
 
-**What FPGA will I use on my board?**  
+**What FPGA will I use on my board?**\
 Uhhhhh idk yet, but I have a good idea. I want to be able to do some cool stuff with electricity and lots of data, so I want something on the higher end of the speed scale. I think I would get a Xilinx Kintex-7 XC7K70T-2FBG676C or XC7K160T-2FFG676C. The former is about $35, and the latter is more like $80. If I can find a way to level up this board to Tier 1, I may go even further because I think that sounds cool.
 
-**Other stuff that would probably go on the board**  
+**Other stuff that would probably go on the board**\
 RAM, I haven't researched enough about RAM yet. Capacitors, lots of them. JTAG adapter. Ports going out to connect with other devices. Headers, if I want to connect another module directly if I fear the cables. Lots of power stuff and regulators. Clock generators. Buttons and LEDs.
 
 I intend to supply power to this board with a bench power supply (OOH, I could make that!), so it doesn't require an extreme amount of power thingamabobs, just enough to handle the power degradation from traveling over a cable.
@@ -228,3 +228,32 @@ If you are wondering how I was able to do so little with so much time, today was
 I also messed around a bit more with the PCB editor. Not much got done, but I did experiment with routing differential pairs.
 
 **Total time spent: 7h**
+
+___
+
+# October 19: VADJ Regulation and cleanup
+
+Today, I want to
+
+- Double check the power protection and power good system
+- Create the VADJ regulation system
+- Try to get to the new connector, GOSH
+
+The VADJ regulation system needs to have its own power protection stuffs because the switch being used doesn't handle it itself. That was a decision made because I thought it would be simpler to regulate it further upstream.
+
+Making this regulator was quite fun! I chose the TPS564201 for its 4A output current and slightly above 4A current limit. The voltage it is set to is controlled by the same MUX as the downstream window comparator MUX. I initially configured it so that the upper resistor was the one that changed, as the datasheet only had values for a varying upper resistor, but I realized it would be safer to have the lower resistor be changed; if the MUX fails, an upper resistor switching configuration would make the VFB pin pulled to ground by the lower resistor, which would cause voltage to increase. Making the lower resistor change makes it so that a failure of the MUX would drive the output voltage to the switch's minimum, which is around 0.78V. After making that decision, I realized I could safely move the resistors down a channel on the MUX and have channel 1 disconnected. I chose to do this so that the MUX and the downstream window comparator MUX can share address lines.
+
+![VADJ Regulator](images/vadjRegulator.png)
+
+One other change I made was removing the 100 nF capacitor between both MUXs' VSS and GND pins. I had the capacitor there because the datasheet said VSS should have it, but it was worded quite poorly. What it was actually saying was that VSS should have that capacitor only when it is being supplied with negative voltage (to increase range of possible switched line voltage).
+
+I did some calculations for worst case scenarios with tolerances, and realized that my VADJ load switch would decrease voltage by 100 mV at 4A, the highest load the ANSI/VITA 57 standards allow. That coupled with all of the possible worst-case chip stuffs would cause a false-negative power good signal. I realized then, that I could just handle the switching by enabling and disabling my buck converter! The signal to enable and disable it would have to come from the FPGA, though, as it can't just switch on or off based on the presence of a connected mezzanine card. After doing that, there still is a tiny bit of overlap between worst case values. To make sure transient noise doesn't cause power good to go low, I put 10 nF capacitors before the resistor dividers for the window comparators. For errors embedded in the chips themselves, I just said that the chances that all of those worst case values stack up is too low for me to worry too much about. I might add some space for an optional manual override to be placed after production.
+
+I just realized that a line over the name of a line doesn't mean inverted, it means active low. I will be fixing this now.
+
+I spent a lot of time just cleaning up my KiCad stuffs, like the BOM and earlier placed passive devices. Now, every resistor has an exact MPN. I didn't get into capacitors because I don't fully understand them yet, especially since LCSC has capacitor material as one of the major categories, not a search filter. The design currently stands at 92 capacitors, 45 resistors, and 1 inductor.\
+Cleanup specifically meant that I didn't really do anything specific. I kinda just did it based on vibes. There isn't any major difference, so I don't have a good photo. Some larger things I corrected were capacitors' capacitance being labeled as regular text instead of the value box being visible and labels being rotated 90 degrees.
+
+I think I'm just allergic to the undecided connector
+
+**Total time spent: 4h 40m**

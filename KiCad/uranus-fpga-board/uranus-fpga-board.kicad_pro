@@ -584,25 +584,25 @@
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Simulation",
           "name": "${EXCLUDE_FROM_SIM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Position Files",
           "name": "${EXCLUDE_FROM_POS_FILES}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -617,10 +617,10 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "MP",
           "name": "MP",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -668,7 +668,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -680,13 +680,37 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Availability",
           "name": "Availability",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CREATOR",
+          "name": "CREATOR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VERIFIER",
+          "name": "VERIFIER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -725,6 +749,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -737,7 +769,7 @@
         "uuid": "11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b"
       }
     ],
-    "used_designators": "#PWR1-219,240Ω1,C1-92,J1-4,Q1-4,R1-39,U1-19,Y1-2",
+    "used_designators": "#PWR1-226,240Ω1,C1-99,J1-4,L1,Q1-4,R1-52,U1-20,Y1-2",
     "variants": []
   },
   "sheets": [
@@ -755,14 +787,18 @@
     ],
     [
       "cee8d822-652e-465d-acca-28eb7a6fb777",
-      "High Speed IO"
+      "FMC"
     ],
     [
-      "d921dc71-75e5-4bd3-931c-5ccd6c981821",
+      "69c82f07-7ecd-4fb6-a628-adffb9ba2d4e",
+      "IDC"
+    ],
+    [
+      "defa0a52-2b0b-49c4-9b4c-86a3a30ab038",
       "Misc Peripherals"
     ],
     [
-      "800651b2-5962-4199-b081-32599b035da2",
+      "c1057ce7-6c8d-4e8e-bc5f-5c8a3700fd3c",
       "Power"
     ]
   ],
