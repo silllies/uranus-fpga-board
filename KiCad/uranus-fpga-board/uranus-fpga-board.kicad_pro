@@ -720,7 +720,55 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "IDC_DB": [
+        "D0",
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "D6",
+        "D7",
+        "D8",
+        "D9",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D14",
+        "D15",
+        "CLK",
+        "WRT"
+      ],
+      "RAM_A": [
+        "A[0..12]",
+        "BA[0..2]"
+      ],
+      "RAM_CLK": [
+        "CK_P",
+        "CK_N"
+      ],
+      "RAM_CTRL": [
+        "CKE",
+        "~{RESET}",
+        "~{CS}",
+        "~{RAS}",
+        "~{CAS}",
+        "~{WE}",
+        "ODT"
+      ],
+      "RAM_DB": [
+        "DQ[0..7]",
+        "DQS_P",
+        "DQS_N",
+        "DM"
+      ],
+      "VADJ_CTRL": [
+        "SEL_A[0..2]",
+        "REG_EN"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -769,7 +817,7 @@
         "uuid": "11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b"
       }
     ],
-    "used_designators": "#PWR1-226,240Ω1,C1-99,J1-4,L1,Q1-4,R1-52,U1-20,Y1-2",
+    "used_designators": "#GND1,#PWR1-233,240Ω1,C1-99,J1-4,L1,Q1-4,R1-61,U1-22,Y1-2",
     "variants": []
   },
   "sheets": [
@@ -778,28 +826,104 @@
       "Root"
     ],
     [
-      "9b31d439-c2fe-44d5-bcd7-596f029a918d",
+      "ae4670d8-3f7e-4e25-83c4-e414aeb132b8",
       "FPGA"
     ],
     [
-      "d32b1b54-9a9e-4c46-91fe-6bab085527e9",
+      "2db62921-1f4c-4476-acf4-00c054324714",
       "RAM"
     ],
     [
-      "cee8d822-652e-465d-acca-28eb7a6fb777",
+      "2757140f-486d-491c-90f5-6e7ccbeb0281",
       "FMC"
     ],
     [
-      "69c82f07-7ecd-4fb6-a628-adffb9ba2d4e",
+      "251fb5d8-a4e7-4d73-9f18-2d9cd26a039c",
       "IDC"
     ],
     [
-      "defa0a52-2b0b-49c4-9b4c-86a3a30ab038",
+      "7d64c5c4-ac4a-4d73-b01d-5f6ce408deba",
       "Misc Peripherals"
     ],
     [
-      "c1057ce7-6c8d-4e8e-bc5f-5c8a3700fd3c",
+      "c24033dc-f369-41dd-8f49-05bd1c6f280a",
       "Power"
+    ],
+    [
+      "d638e65d-8388-457a-9d43-44458e2c9f35",
+      "VADJ"
+    ],
+    [
+      "46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd",
+      "FMC Power"
+    ],
+    [
+      "7b0890b0-33af-4ace-99bd-c62d0e3b3168",
+      "Power"
+    ],
+    [
+      "5601c772-9d70-4d6a-b42b-748160249e32",
+      "GTX"
+    ],
+    [
+      "ebe21894-3116-4927-b5b1-2b3b5358a9f8",
+      "Config"
+    ],
+    [
+      "e70af11b-d02c-4276-ba11-71fb729ac221",
+      "IO Banks"
+    ],
+    [
+      "a655dfbd-5082-45df-851d-f33b1052dc7f",
+      "32 33 34"
+    ],
+    [
+      "c6904e6f-e817-4de3-b782-439e253960e0",
+      "16 17 18"
+    ],
+    [
+      "df160b42-b095-480e-a002-f23f31e7d2a8",
+      "15"
+    ],
+    [
+      "20a1cd87-7584-4a0d-9865-d63069f231d1",
+      "13 14"
+    ],
+    [
+      "4cb2768f-bfdc-42c9-a077-fdf8ea6fb703",
+      "12"
+    ],
+    [
+      "5db95efe-4ce8-4047-90c4-46ab07b50908",
+      "Chip0"
+    ],
+    [
+      "f179934d-073a-40e5-8c67-2e5af293fa66",
+      "Chip1"
+    ],
+    [
+      "b3187f1f-118e-432d-a98b-53f46f97d248",
+      "Chip2"
+    ],
+    [
+      "f15fbad7-1fe6-4681-a07a-8b075fea57d6",
+      "Chip3"
+    ],
+    [
+      "6841b136-585d-4620-8c7f-346e962849dc",
+      "Window Comparator +3V3AUX"
+    ],
+    [
+      "bd59cc30-5e71-43c4-b6d6-9366f59ed92b",
+      "Window Comparator +12V0_P"
+    ],
+    [
+      "fb739f47-d8c4-40b2-98a1-6db3d4b23523",
+      "Window Comparator +3V3_P"
+    ],
+    [
+      "95b890cf-6890-4543-b4d6-b2ecad9816b0",
+      "Window Comparator VADJ"
     ]
   ],
   "text_variables": {},

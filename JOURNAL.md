@@ -3,7 +3,7 @@ title: "uranus-fpga-board"
 github: "https://github.com/silllies/uranus-fpga-board"
 description: "Found out about FPGAs and thought they were very cool—decided to try making a board for a nice one. Calling it Uranus because Uranus is a goated planet (YOOR-uh-nús)"
 created_at: "2026-10-04"
-total_time: "60h 20m"
+total_time: "70h 30m"
 ---
 
 # October 4, 2026: FPGAs are Actually Pretty Hype
@@ -257,3 +257,58 @@ Cleanup specifically meant that I didn't really do anything specific. I kinda ju
 I think I'm just allergic to the undecided connector
 
 **Total time spent: 4h 40m**
+
+___
+
+# October 20, 2026: CLEANUP
+
+I have been inspired to make my schematic better. I read a very good guide on how to actually set up schematics nicely. That is my main goal today, and I will work on adding to my schematic if I finish. I have also gotten irritated at Fabricate's markdown renderer, as double line breaks are a single line break, double spaced ends are a paragraph break, and backslashes at the end of lines are included! I switched my double spaces to backslashes because I was told it was better practice!
+
+Okay, this is going to be more involved than I though, since I kind of have been abusing global labels. I am going to try to only use global labels for universal lines and use hierarchical labels (with buses) to connect signals only going to one other sheet.
+
+Great decision! Deciding to separate the FPGA into its IO Banks! Especially since the current symbol groups the pins by bank LAST! Who's idea was it to sort by differential pair first?\
+Wait, KiCad has a built in schematic for the XC7K325T-3FFG900E, why have I been using this, uhhh, very poorly designed UL schematic? I still have to do some reordering, but it is much easier.
+
+Ohhhhh wow.10 hours in and I'm not done. I got to a really good point, though. I massively increased the number of schematic sheets, going from 7 to 26. This was done to more cleanly divide the roles of all of the components, or because of a repeating component. I also got to a good spot on my transition away from global labels. I got a whole bunch of buses and hierarchical labels. Attached below is my entire schematic so far, and you will see there are some sheets that are very unfinished (most notably, FPGA root and FMC). Enjoy!
+
+![root](images/oct20/root.png)
+
+![fpga](images/oct20/fpga.png)
+
+![fpga/power](images/oct20/fpga_power.png)
+
+![fpga/gtx](images/oct20/fpga_gtx.png)
+
+![fpga/config](images/oct20/fpga_config.png)
+
+![fpga/io](images/oct20/fpga_io)
+
+![fpga/io/32_33_34](images/oct20/fpga_io_32_33_34.png)
+
+![fpga/io/16_17_18](images/oct20/fpga_io_16_17_18.png)
+
+![fpga/io/15](images/oct20/fpga_io_15.png)
+
+![fpga/io/13_14](images/oct20/fpga_io_13_14.png)
+
+![fpga/io/12](images/oct20/fpga_io_12.png)
+
+![ram](images/oct20/ram.png)
+
+![ram/chip](images/oct20/ram_chip.png)
+
+![fmc](images/oct20/fmc.png)
+
+![fmc/power](images/oct20/fmc_power.png)
+
+![fmc/power/comparator](images/oct20/fmc_power_comparator.png)
+
+![idc](images/oct20/idc.png)
+
+![misc](images/oct20/misc.png)
+
+![power](images/oct20/power.png)
+
+![power/vadj](images/oct20/power_vadj.png)
+
+**Total time spent: 10h 10m**
