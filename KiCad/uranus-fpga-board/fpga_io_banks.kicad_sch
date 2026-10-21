@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(bus
 		(pts
-			(xy 62.23 114.3) (xy 63.5 114.3)
+			(xy 60.96 120.65) (xy 63.5 120.65)
 		)
 		(stroke
 			(width 0)
@@ -17,7 +17,37 @@
 	)
 	(bus
 		(pts
-			(xy 189.23 58.42) (xy 191.77 58.42)
+			(xy 140.97 76.2) (xy 143.51 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22b94c3a-69ae-42c3-a9d4-b0d2f34bbb85")
+	)
+	(wire
+		(pts
+			(xy 101.6 114.3) (xy 99.06 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fbd3bb6-579e-4280-b65c-60cc82c7e23a")
+	)
+	(bus
+		(pts
+			(xy 140.97 66.04) (xy 143.51 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b318e2c-9732-4af2-91a5-3395ffdb1bdc")
+	)
+	(bus
+		(pts
+			(xy 210.82 58.42) (xy 213.36 58.42)
 		)
 		(stroke
 			(width 0)
@@ -27,7 +57,7 @@
 	)
 	(bus
 		(pts
-			(xy 62.23 111.76) (xy 63.5 111.76)
+			(xy 60.96 111.76) (xy 63.5 111.76)
 		)
 		(stroke
 			(width 0)
@@ -37,7 +67,27 @@
 	)
 	(bus
 		(pts
-			(xy 101.6 64.77) (xy 99.06 64.77)
+			(xy 140.97 69.85) (xy 143.51 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "794dc668-8548-4724-a5dc-a6922b832818")
+	)
+	(bus
+		(pts
+			(xy 140.97 62.23) (xy 143.51 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c054b85-e893-4d47-ae12-2b585b85241c")
+	)
+	(bus
+		(pts
+			(xy 101.6 63.5) (xy 99.06 63.5)
 		)
 		(stroke
 			(width 0)
@@ -47,7 +97,7 @@
 	)
 	(bus
 		(pts
-			(xy 60.96 72.39) (xy 63.5 72.39)
+			(xy 60.96 71.12) (xy 63.5 71.12)
 		)
 		(stroke
 			(width 0)
@@ -67,7 +117,7 @@
 	)
 	(bus
 		(pts
-			(xy 60.96 92.71) (xy 63.5 92.71)
+			(xy 60.96 91.44) (xy 63.5 91.44)
 		)
 		(stroke
 			(width 0)
@@ -85,9 +135,19 @@
 		)
 		(uuid "aabc2825-61de-49f9-9132-7fb085ae12e5")
 	)
+	(wire
+		(pts
+			(xy 101.6 120.65) (xy 99.06 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4cd40d6-962a-4d0e-b65c-be6a32e24d06")
+	)
 	(bus
 		(pts
-			(xy 60.96 82.55) (xy 63.5 82.55)
+			(xy 60.96 81.28) (xy 63.5 81.28)
 		)
 		(stroke
 			(width 0)
@@ -95,9 +155,19 @@
 		)
 		(uuid "c5e9e5f7-3c86-47f6-9c5c-bb1503fb04c6")
 	)
+	(wire
+		(pts
+			(xy 101.6 123.19) (xy 99.06 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca5cdb1e-3deb-4f61-b4fc-e191797018e5")
+	)
 	(bus
 		(pts
-			(xy 60.96 62.23) (xy 63.5 62.23)
+			(xy 60.96 60.96) (xy 63.5 60.96)
 		)
 		(stroke
 			(width 0)
@@ -127,7 +197,7 @@
 	)
 	(bus
 		(pts
-			(xy 101.6 71.12) (xy 99.06 71.12)
+			(xy 101.6 68.58) (xy 99.06 68.58)
 		)
 		(stroke
 			(width 0)
@@ -145,9 +215,29 @@
 		)
 		(uuid "f104b5c9-3ec4-4fc4-9c4e-d1358579ae16")
 	)
+	(bus
+		(pts
+			(xy 140.97 58.42) (xy 143.51 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6368e09-a358-45fa-9af6-812dc82d4a55")
+	)
+	(wire
+		(pts
+			(xy 101.6 111.76) (xy 99.06 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbdc950a-55fd-42f2-8219-0dc4dabbb7c0")
+	)
 	(hierarchical_label "B13{IDC_DB}"
 		(shape bidirectional)
-		(at 62.23 111.76 180)
+		(at 60.96 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -156,9 +246,31 @@
 		)
 		(uuid "07424ec6-3b9b-43f5-ac23-c5e6d4ae3ddc")
 	)
+	(hierarchical_label "{FMC_DB_B17}"
+		(shape bidirectional)
+		(at 140.97 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07f96238-ff00-4fe0-b21a-757ab46a6927")
+	)
+	(hierarchical_label "{FMC_CLK}"
+		(shape input)
+		(at 140.97 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "18d4e7c3-b826-4b39-aeea-6f0b88657622")
+	)
 	(hierarchical_label "H0{RAM_DB}"
 		(shape bidirectional)
-		(at 60.96 62.23 180)
+		(at 60.96 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -167,9 +279,20 @@
 		)
 		(uuid "1b6d9cb3-f2c5-42da-b18d-d162a04cddab")
 	)
+	(hierarchical_label "{FMC_DB_B16}"
+		(shape bidirectional)
+		(at 140.97 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "21409605-7021-402e-bd2a-643d79ee683e")
+	)
 	(hierarchical_label "H3{RAM_DB}"
 		(shape bidirectional)
-		(at 60.96 92.71 180)
+		(at 60.96 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -180,7 +303,7 @@
 	)
 	(hierarchical_label "H1{RAM_DB}"
 		(shape bidirectional)
-		(at 60.96 72.39 180)
+		(at 60.96 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -191,7 +314,7 @@
 	)
 	(hierarchical_label "H2{RAM_DB}"
 		(shape bidirectional)
-		(at 60.96 82.55 180)
+		(at 60.96 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -224,7 +347,7 @@
 	)
 	(hierarchical_label "{RAM_CTRL}"
 		(shape output)
-		(at 101.6 71.12 0)
+		(at 101.6 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -244,9 +367,53 @@
 		)
 		(uuid "9dffdf16-02df-4aed-bc77-7dd84ae8b529")
 	)
+	(hierarchical_label "IDC_B13_WRT"
+		(shape output)
+		(at 101.6 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a14c5282-6110-47cb-a17e-ea632b45e46f")
+	)
+	(hierarchical_label "{FMC_I2C}"
+		(shape bidirectional)
+		(at 140.97 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "af55096a-453d-4cb1-b97d-6cfab6699965")
+	)
+	(hierarchical_label "IDC_B13_CLK"
+		(shape output)
+		(at 101.6 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ba60dd7e-2e83-467a-a428-15a88c31d30a")
+	)
+	(hierarchical_label "IDC_B14_CLK"
+		(shape output)
+		(at 101.6 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bc386f1e-ebf9-4cd3-ae90-ad7951f36df6")
+	)
 	(hierarchical_label "{VADJ_CTRL}"
 		(shape output)
-		(at 189.23 58.42 180)
+		(at 210.82 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -254,6 +421,28 @@
 			(justify right)
 		)
 		(uuid "bdcea04a-a060-4b32-af9e-93eb28ab89be")
+	)
+	(hierarchical_label "{FMC_DB_B18}"
+		(shape bidirectional)
+		(at 140.97 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bf64c45c-1aca-41e8-9d62-c40a029f07b5")
+	)
+	(hierarchical_label "IDC_B14_WRT"
+		(shape output)
+		(at 101.6 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ce7fce33-0c7b-4a1b-a759-d4ad966241a7")
 	)
 	(hierarchical_label "L2{RAM_DB}"
 		(shape bidirectional)
@@ -268,7 +457,7 @@
 	)
 	(hierarchical_label "B14{IDC_DB}"
 		(shape bidirectional)
-		(at 62.23 114.3 180)
+		(at 60.96 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -279,7 +468,7 @@
 	)
 	(hierarchical_label "{RAM_CLK}"
 		(shape output)
-		(at 101.6 64.77 0)
+		(at 101.6 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -348,13 +537,53 @@
 			)
 		)
 		(pin "B14{IDC_DB}" bidirectional
-			(at 63.5 114.3 180)
+			(at 63.5 120.65 180)
 			(uuid "b6a67e93-6bfe-4cb0-a1cd-17a66e4a8a7f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "IDC_B13_CLK" output
+			(at 99.06 111.76 0)
+			(uuid "fb4c2efd-a5cb-4161-9b2f-1cc95fb955bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IDC_B13_WRT" output
+			(at 99.06 114.3 0)
+			(uuid "7a9f1b10-461d-42b7-97b0-6b081cf61594")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IDC_B14_CLK" output
+			(at 99.06 120.65 0)
+			(uuid "e0b8e02c-e35d-4f1a-ab8e-e8a910e79b9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IDC_B14_WRT" output
+			(at 99.06 123.19 0)
+			(uuid "30f1c8f8-16a4-4c6c-824d-b55ece807321")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -366,7 +595,7 @@
 		)
 	)
 	(sheet
-		(at 128.27 109.22)
+		(at 135.89 109.22)
 		(size 35.56 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -382,7 +611,7 @@
 		)
 		(uuid "4cb2768f-bfdc-42c9-a077-fdf8ea6fb703")
 		(property "Sheetname" "12"
-			(at 128.27 108.5084 0)
+			(at 135.89 108.5084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -393,7 +622,7 @@
 			)
 		)
 		(property "Sheetfile" "fpga_bank_12.kicad_sch"
-			(at 128.27 136.4746 0)
+			(at 135.89 136.4746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -450,7 +679,7 @@
 			)
 		)
 		(pin "H0{RAM_DB}" bidirectional
-			(at 63.5 62.23 180)
+			(at 63.5 60.96 180)
 			(uuid "6a99379a-e688-4a00-abd2-495411514786")
 			(effects
 				(font
@@ -460,7 +689,7 @@
 			)
 		)
 		(pin "H1{RAM_DB}" bidirectional
-			(at 63.5 72.39 180)
+			(at 63.5 71.12 180)
 			(uuid "f4fe3793-93a2-4479-ad4a-6bd2b8b02b10")
 			(effects
 				(font
@@ -470,7 +699,7 @@
 			)
 		)
 		(pin "H2{RAM_DB}" bidirectional
-			(at 63.5 82.55 180)
+			(at 63.5 81.28 180)
 			(uuid "1df07eeb-9c06-4607-abe0-00558cf392aa")
 			(effects
 				(font
@@ -520,7 +749,7 @@
 			)
 		)
 		(pin "L3{RAM_DB}" bidirectional
-			(at 63.5 92.71 180)
+			(at 63.5 91.44 180)
 			(uuid "79b6c47c-e4fa-468b-9956-afdc97ffe831")
 			(effects
 				(font
@@ -540,7 +769,7 @@
 			)
 		)
 		(pin "{RAM_CLK}" output
-			(at 99.06 64.77 0)
+			(at 99.06 63.5 0)
 			(uuid "35392dfe-4a88-489a-bb4c-77aa59cfb2d8")
 			(effects
 				(font
@@ -550,7 +779,7 @@
 			)
 		)
 		(pin "{RAM_CTRL}" output
-			(at 99.06 71.12 0)
+			(at 99.06 68.58 0)
 			(uuid "8417c6be-7211-4b4d-9adf-cfe9233d3b72")
 			(effects
 				(font
@@ -568,8 +797,8 @@
 		)
 	)
 	(sheet
-		(at 128.27 55.88)
-		(size 35.56 26.67)
+		(at 143.51 55.88)
+		(size 35.56 40.64)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -584,7 +813,7 @@
 		)
 		(uuid "c6904e6f-e817-4de3-b782-439e253960e0")
 		(property "Sheetname" "16 17 18"
-			(at 128.27 55.1684 0)
+			(at 143.51 55.1684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -595,7 +824,7 @@
 			)
 		)
 		(property "Sheetfile" "fpga_banks_16_17_18.kicad_sch"
-			(at 128.27 83.1346 0)
+			(at 143.51 97.1046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -603,6 +832,56 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "{FMC_CLK}" input
+			(at 143.51 58.42 180)
+			(uuid "5d091af2-1290-43c8-a78a-c439013d0e9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{FMC_DB_B16}" bidirectional
+			(at 143.51 62.23 180)
+			(uuid "f2daee30-cf14-4308-bb48-b9e67c05cac2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{FMC_DB_B17}" bidirectional
+			(at 143.51 66.04 180)
+			(uuid "5bf90498-900c-4f51-a037-3f779e06f647")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{FMC_DB_B18}" bidirectional
+			(at 143.51 69.85 180)
+			(uuid "a83c0b6f-6610-4d6c-9ab0-46db49354b4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{FMC_I2C}" bidirectional
+			(at 143.51 76.2 180)
+			(uuid "dc153011-165d-4d18-9c72-8042fb3cde16")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -614,7 +893,7 @@
 		)
 	)
 	(sheet
-		(at 191.77 55.88)
+		(at 213.36 55.88)
 		(size 35.56 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -630,7 +909,7 @@
 		)
 		(uuid "df160b42-b095-480e-a002-f23f31e7d2a8")
 		(property "Sheetname" "15"
-			(at 191.77 55.1684 0)
+			(at 213.36 55.1684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -641,7 +920,7 @@
 			)
 		)
 		(property "Sheetfile" "fpga_bank_15.kicad_sch"
-			(at 191.77 83.1346 0)
+			(at 213.36 83.1346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -652,7 +931,7 @@
 			)
 		)
 		(pin "{VADJ_CTRL}" output
-			(at 191.77 58.42 180)
+			(at 213.36 58.42 180)
 			(uuid "56af8b21-d2cb-4c35-86c8-57ecf617080c")
 			(effects
 				(font

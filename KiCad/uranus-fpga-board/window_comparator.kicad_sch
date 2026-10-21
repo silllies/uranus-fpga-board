@@ -4,6 +4,9 @@
 	(generator_version "10.0")
 	(uuid "05aefd55-98e9-4ea9-8e8d-e0f1a3c49f4c")
 	(paper "A5")
+	(title_block
+		(title "Window Comparator")
+	)
 	(lib_symbols
 		(symbol "Device:C_Small"
 			(pin_numbers
@@ -791,10 +794,10 @@
 		(uuid "beff7d0a-5766-4cdf-9a9e-0c8882f9f3f8")
 	)
 	(junction
-		(at 97.79 59.69)
+		(at 97.79 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ccd777a3-778f-463c-969d-44d38b23c529")
+		(uuid "e0efd941-4fca-4d5f-ae93-c95301e3988e")
 	)
 	(wire
 		(pts
@@ -805,6 +808,16 @@
 			(type default)
 		)
 		(uuid "01d19902-a1ea-4e5b-9c15-91c40356b6ff")
+	)
+	(wire
+		(pts
+			(xy 97.79 58.42) (xy 97.79 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01d418e6-8f52-4076-84de-aaafb738570a")
 	)
 	(wire
 		(pts
@@ -838,7 +851,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 59.69) (xy 118.11 59.69)
+			(xy 97.79 58.42) (xy 119.38 58.42)
 		)
 		(stroke
 			(width 0)
@@ -848,7 +861,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 58.42) (xy 97.79 59.69)
+			(xy 97.79 57.15) (xy 97.79 58.42)
 		)
 		(stroke
 			(width 0)
@@ -868,7 +881,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 59.69) (xy 118.11 60.96)
+			(xy 119.38 58.42) (xy 119.38 60.96)
 		)
 		(stroke
 			(width 0)
@@ -939,7 +952,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ebd84cc-9ccf-481b-9964-0a0796542428")
-		(property "Reference" "U10"
+		(property "Reference" "U17"
 			(at 100.33 74.422 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1016,19 +1029,19 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/6841b136-585d-4620-8c7f-346e962849dc"
-					(reference "U10")
+					(reference "U17")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/95b890cf-6890-4543-b4d6-b2ecad9816b0"
-					(reference "U13")
+					(reference "U20")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/bd59cc30-5e71-43c4-b6d6-9366f59ed92b"
-					(reference "U11")
+					(reference "U18")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/fb739f47-d8c4-40b2-98a1-6db3d4b23523"
-					(reference "U21")
+					(reference "U19")
 					(unit 1)
 				)
 			)
@@ -1036,7 +1049,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 97.79 58.42 0)
+		(at 97.79 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1045,8 +1058,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "70475a79-c347-48ab-88ed-36063c89823f")
-		(property "Reference" "#PWR0146"
-			(at 97.79 62.23 0)
+		(property "Reference" "#PWR0199"
+			(at 97.79 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1057,7 +1070,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 95.25 54.356 0)
+			(at 95.25 53.086 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1068,7 +1081,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 58.42 0)
+			(at 97.79 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1079,7 +1092,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 58.42 0)
+			(at 97.79 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1090,7 +1103,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 97.79 58.42 0)
+			(at 97.79 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1106,19 +1119,19 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/6841b136-585d-4620-8c7f-346e962849dc"
-					(reference "#PWR0146")
+					(reference "#PWR0199")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/95b890cf-6890-4543-b4d6-b2ecad9816b0"
-					(reference "#PWR0189")
+					(reference "#PWR0208")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/bd59cc30-5e71-43c4-b6d6-9366f59ed92b"
-					(reference "#PWR0165")
+					(reference "#PWR0202")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/fb739f47-d8c4-40b2-98a1-6db3d4b23523"
-					(reference "#PWR0224")
+					(reference "#PWR0205")
 					(unit 1)
 				)
 			)
@@ -1135,7 +1148,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8ce7559c-63d7-4ff2-8cdc-72f98e661d56")
-		(property "Reference" "#PWR0147"
+		(property "Reference" "#PWR0200"
 			(at 97.79 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -1195,19 +1208,19 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/6841b136-585d-4620-8c7f-346e962849dc"
-					(reference "#PWR0147")
+					(reference "#PWR0200")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/95b890cf-6890-4543-b4d6-b2ecad9816b0"
-					(reference "#PWR0190")
+					(reference "#PWR0209")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/bd59cc30-5e71-43c4-b6d6-9366f59ed92b"
-					(reference "#PWR0167")
+					(reference "#PWR0203")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/fb739f47-d8c4-40b2-98a1-6db3d4b23523"
-					(reference "#PWR0226")
+					(reference "#PWR0206")
 					(unit 1)
 				)
 			)
@@ -1225,7 +1238,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "95340a51-0f9c-4120-bc21-c57c76af35aa")
-		(property "Reference" "R23"
+		(property "Reference" "R42"
 			(at 83.82 71.374 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1311,19 +1324,19 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/6841b136-585d-4620-8c7f-346e962849dc"
-					(reference "R23")
+					(reference "R42")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/95b890cf-6890-4543-b4d6-b2ecad9816b0"
-					(reference "R53")
+					(reference "R48")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/bd59cc30-5e71-43c4-b6d6-9366f59ed92b"
-					(reference "R50")
+					(reference "R44")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/fb739f47-d8c4-40b2-98a1-6db3d4b23523"
-					(reference "R52")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -1331,7 +1344,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 118.11 66.04 0)
+		(at 119.38 66.04 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1342,8 +1355,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cac4ac6c-22a9-4945-92d2-991c84cd5d67")
-		(property "Reference" "#PWR0166"
-			(at 118.11 72.39 0)
+		(property "Reference" "#PWR0201"
+			(at 119.38 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1354,7 +1367,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 71.12 0)
+			(at 119.38 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1364,7 +1377,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 66.04 0)
+			(at 119.38 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1375,7 +1388,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 66.04 0)
+			(at 119.38 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1386,7 +1399,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 66.04 0)
+			(at 119.38 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1402,19 +1415,19 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/6841b136-585d-4620-8c7f-346e962849dc"
-					(reference "#PWR0166")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/95b890cf-6890-4543-b4d6-b2ecad9816b0"
-					(reference "#PWR0228")
+					(reference "#PWR0210")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/bd59cc30-5e71-43c4-b6d6-9366f59ed92b"
-					(reference "#PWR0223")
+					(reference "#PWR0204")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/fb739f47-d8c4-40b2-98a1-6db3d4b23523"
-					(reference "#PWR0227")
+					(reference "#PWR0207")
 					(unit 1)
 				)
 			)
@@ -1422,7 +1435,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 118.11 63.5 0)
+		(at 119.38 63.5 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -1432,8 +1445,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d7f6575c-8573-44d2-801a-34c8fea59afa")
-		(property "Reference" "C81"
-			(at 120.396 62.484 0)
+		(property "Reference" "C89"
+			(at 121.666 62.484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1444,7 +1457,7 @@
 			)
 		)
 		(property "Value" "100 nF"
-			(at 120.396 64.77 0)
+			(at 121.666 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1455,7 +1468,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 63.5 0)
+			(at 119.38 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1466,7 +1479,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 63.5 0)
+			(at 119.38 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1477,7 +1490,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 118.11 53.34 0)
+			(at 119.38 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1496,19 +1509,19 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/6841b136-585d-4620-8c7f-346e962849dc"
-					(reference "C81")
+					(reference "C89")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/95b890cf-6890-4543-b4d6-b2ecad9816b0"
-					(reference "C85")
+					(reference "C92")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/bd59cc30-5e71-43c4-b6d6-9366f59ed92b"
-					(reference "C82")
+					(reference "C90")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/fb739f47-d8c4-40b2-98a1-6db3d4b23523"
-					(reference "C94")
+					(reference "C91")
 					(unit 1)
 				)
 			)
@@ -1526,7 +1539,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f64229b8-d890-477d-9aeb-5a0306d48188")
-		(property "Reference" "R22"
+		(property "Reference" "R41"
 			(at 83.82 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1612,19 +1625,19 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/6841b136-585d-4620-8c7f-346e962849dc"
-					(reference "R22")
+					(reference "R41")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/95b890cf-6890-4543-b4d6-b2ecad9816b0"
-					(reference "R28")
+					(reference "R47")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/bd59cc30-5e71-43c4-b6d6-9366f59ed92b"
-					(reference "R25")
+					(reference "R43")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/fb739f47-d8c4-40b2-98a1-6db3d4b23523"
-					(reference "R51")
+					(reference "R45")
 					(unit 1)
 				)
 			)

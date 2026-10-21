@@ -2718,7 +2718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01bbcf75-676e-4c61-82cb-261272875028")
-		(property "Reference" "#PWR0208"
+		(property "Reference" "#PWR0124"
 			(at 168.91 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -2778,7 +2778,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/7d64c5c4-ac4a-4d73-b01d-5f6ce408deba"
-					(reference "#PWR0208")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -2796,7 +2796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14cac5a5-a8ce-4d3a-9275-eab14d723472")
-		(property "Reference" "U17"
+		(property "Reference" "U5"
 			(at 165.1 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -2873,7 +2873,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/7d64c5c4-ac4a-4d73-b01d-5f6ce408deba"
-					(reference "U17")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -2890,7 +2890,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "16868f4b-c9dc-4488-8979-fb54d0e71fb1")
-		(property "Reference" "Y2"
+		(property "Reference" "Y1"
 			(at 187.96 92.6398 0)
 			(hide yes)
 			(show_name no)
@@ -2959,7 +2959,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/7d64c5c4-ac4a-4d73-b01d-5f6ce408deba"
-					(reference "Y2")
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -2977,7 +2977,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a0c5901-04e4-43a8-bb74-27d20f51b79d")
-		(property "Reference" "U14"
+		(property "Reference" "U2"
 			(at 78.994 122.682 0)
 			(hide yes)
 			(show_name no)
@@ -3060,7 +3060,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/7d64c5c4-ac4a-4d73-b01d-5f6ce408deba"
-					(reference "U14")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -3204,7 +3204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4868a92-c084-44f0-9247-5dce1e6b76e7")
-		(property "Reference" "U15"
+		(property "Reference" "U3"
 			(at 116.84 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -3407,7 +3407,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/7d64c5c4-ac4a-4d73-b01d-5f6ce408deba"
-					(reference "U15")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -3425,7 +3425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c936bf9a-5aec-43b5-8d5c-5bd540716729")
-		(property "Reference" "U16"
+		(property "Reference" "U4"
 			(at 118.9833 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3502,7 +3502,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/7d64c5c4-ac4a-4d73-b01d-5f6ce408deba"
-					(reference "U16")
+					(reference "U4")
 					(unit 1)
 				)
 			)

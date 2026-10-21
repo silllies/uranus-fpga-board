@@ -16853,317 +16853,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:C_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Small"
-				(at 0.254 -2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "capacitor cap"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "XC7K325T-3FFG900E_1"
 			(pin_names
 				(offset 0.254)
@@ -186178,8 +185867,8 @@
 		)
 	)
 	(rectangle
-		(start 156.21 375.92)
-		(end 184.15 387.35)
+		(start 424.18 359.41)
+		(end 463.55 381)
 		(stroke
 			(width 0)
 			(type default)
@@ -186187,11 +185876,11 @@
 		(fill
 			(type none)
 		)
-		(uuid "0df6d3d2-5752-4d5b-a728-8c64ec9c5538")
+		(uuid "151be6b6-98b5-4a4d-8ace-ce929e36fcdc")
 	)
 	(rectangle
-		(start 83.82 330.2)
-		(end 111.76 351.79)
+		(start 424.18 386.08)
+		(end 463.55 422.91)
 		(stroke
 			(width 0)
 			(type default)
@@ -186199,11 +185888,11 @@
 		(fill
 			(type none)
 		)
-		(uuid "1295a5e1-9897-4ed2-a913-277bd2c31789")
+		(uuid "1ac69b1f-a0b7-45b1-b5f0-6ede0c670c92")
 	)
 	(rectangle
-		(start 186.69 330.2)
-		(end 214.63 341.63)
+		(start 424.18 422.91)
+		(end 463.55 443.23)
 		(stroke
 			(width 0)
 			(type default)
@@ -186211,11 +185900,11 @@
 		(fill
 			(type none)
 		)
-		(uuid "13e06470-0b47-4f6f-8b1d-e2cb8fb39acd")
+		(uuid "770a8fc0-e9d9-4752-ba1e-1194880d3bde")
 	)
 	(rectangle
-		(start 83.82 355.6)
-		(end 111.76 377.19)
+		(start 424.18 381)
+		(end 463.55 386.08)
 		(stroke
 			(width 0)
 			(type default)
@@ -186223,223 +185912,7 @@
 		(fill
 			(type none)
 		)
-		(uuid "30728eba-6639-4e7a-a2e5-4d96318651ff")
-	)
-	(rectangle
-		(start 186.69 345.44)
-		(end 214.63 356.87)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "32cad83e-e009-4048-9076-91718757cb83")
-	)
-	(rectangle
-		(start 156.21 330.2)
-		(end 184.15 341.63)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "57e9ca8c-04f7-4173-a7b1-585424ee57c2")
-	)
-	(rectangle
-		(start 116.84 330.2)
-		(end 148.59 365.76)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "580f3bfd-a5e6-4049-9a4d-a97130b35b65")
-	)
-	(rectangle
-		(start 156.21 360.68)
-		(end 184.15 372.11)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "5a7c5a93-1650-44f4-8561-c21263f6ff87")
-	)
-	(rectangle
-		(start 120.65 370.84)
-		(end 148.59 391.16)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "78fb2354-45aa-4c14-a191-f794530c25f0")
-	)
-	(rectangle
-		(start 186.69 375.92)
-		(end 214.63 387.35)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "cb73d7e9-231f-4135-afc1-da95d6e473b1")
-	)
-	(rectangle
-		(start 186.69 360.68)
-		(end 214.63 372.11)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "d18081d5-91e6-474f-8d62-c4c8743e4739")
-	)
-	(rectangle
-		(start 156.21 345.44)
-		(end 184.15 356.87)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "e3f9ef95-b09d-4473-8c1f-be4b028c7a4f")
-	)
-	(text "VCCO_17\n"
-		(exclude_from_sim no)
-		(at 170.18 343.916 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0caa6168-9df0-4bdc-a999-6621cd938eca")
-	)
-	(text "VCCAUX\n"
-		(exclude_from_sim no)
-		(at 97.79 354.076 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "180a11f6-bfdb-48ce-9724-6ecff5d05274")
-	)
-	(text "VCCO_18"
-		(exclude_from_sim no)
-		(at 170.18 328.676 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1c4ace88-5042-47ec-ac51-de89da1c2d6a")
-	)
-	(text "VCCO_0"
-		(exclude_from_sim no)
-		(at 200.66 374.396 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2a469fe3-fb53-47d1-ae88-d81a41d2366f")
-	)
-	(text "VCCO_16"
-		(exclude_from_sim no)
-		(at 170.18 359.156 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "504392d7-6f46-4860-9e66-79b792e17db6")
-	)
-	(text "VCCO_15"
-		(exclude_from_sim no)
-		(at 170.18 374.396 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5e82b5ed-9545-4d56-9905-7cc355720d76")
-	)
-	(text "VCCO_33"
-		(exclude_from_sim no)
-		(at 200.66 343.916 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "67d5abfe-0a49-41fb-8bbb-d8da09aca2cc")
-	)
-	(text "VCCAUX_IO\n"
-		(exclude_from_sim no)
-		(at 134.62 369.316 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a1011bec-f231-40e9-9a8d-d0ac64a0f20b")
-	)
-	(text "VCCO_34\n"
-		(exclude_from_sim no)
-		(at 200.66 359.156 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d9897dc3-704a-4595-9a5d-9d689a101cce")
-	)
-	(text "VCCINT\n"
-		(exclude_from_sim no)
-		(at 97.282 328.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ee02b32d-e7b5-4cf8-b5a3-c1044402b309")
-	)
-	(text "VCCO_32\n"
-		(exclude_from_sim no)
-		(at 200.66 328.676 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f0a463ac-2978-4ba5-99b2-64f7c1c63f7c")
-	)
-	(text "VCCBRAM\n"
-		(exclude_from_sim no)
-		(at 134.62 328.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f1c03363-8944-4ae4-ac87-52178d4a7e03")
+		(uuid "c4cbf525-d90c-4bc2-98fc-d6de9d939003")
 	)
 	(junction
 		(at 699.77 237.49)
@@ -186464,12 +185937,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "028cfb33-d5de-425e-a6f1-8182f74802e9")
-	)
-	(junction
-		(at 138.43 345.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "03bc7bb8-3532-4ec6-9b9c-b206e21b10d9")
 	)
 	(junction
 		(at 762 135.89)
@@ -186742,12 +186209,6 @@
 		(uuid "2b879b48-7baa-4797-972a-e9d041cea63b")
 	)
 	(junction
-		(at 138.43 349.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2bb6d736-dcd0-4791-88d7-ed1dbf916cfa")
-	)
-	(junction
 		(at 762 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -186806,12 +186267,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "371ba7e2-d70e-4b76-b702-861fe672daf7")
-	)
-	(junction
-		(at 130.81 340.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "39be41ba-73eb-4599-ac1b-48fb01c3be05")
 	)
 	(junction
 		(at 762 72.39)
@@ -187210,12 +186665,6 @@
 		(uuid "6dc50061-2223-4d38-9f33-9f071c43ce0d")
 	)
 	(junction
-		(at 130.81 353.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "701d0865-061a-4702-b190-f75eac7d2676")
-	)
-	(junction
 		(at 638.81 209.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -187354,12 +186803,6 @@
 		(uuid "7f4cac02-0e97-4edf-a1ea-c0744917150b")
 	)
 	(junction
-		(at 93.98 341.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "80731b60-36b0-4cd3-a7a3-2c17da8c905a")
-	)
-	(junction
 		(at 701.04 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -187382,18 +186825,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8391a8cb-5fb1-4ed3-8db9-9dfbf246d0bd")
-	)
-	(junction
-		(at 130.81 356.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "842a9288-a9b9-4b81-9c4d-62e89b715fe0")
-	)
-	(junction
-		(at 138.43 382.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8565a64d-7955-48be-aec4-f49ca7d93cc3")
 	)
 	(junction
 		(at 699.77 204.47)
@@ -187436,12 +186867,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ecbe713-518c-4147-8146-044908e9556f")
-	)
-	(junction
-		(at 101.6 341.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f18abed-4e69-4634-9707-292d76382c50")
 	)
 	(junction
 		(at 762 125.73)
@@ -187582,12 +187007,6 @@
 		(uuid "a7f673a6-8824-4f8d-9131-880a67a6e404")
 	)
 	(junction
-		(at 130.81 345.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a82a5b87-f453-4678-84ff-a0b9f91c2540")
-	)
-	(junction
 		(at 699.77 267.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -187628,12 +187047,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0b9e976-7905-4d3d-b5f7-4db4c2083f04")
-	)
-	(junction
-		(at 101.6 367.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b0e329e1-8c18-4fd0-bbe7-661448bc1a18")
 	)
 	(junction
 		(at 807.72 49.53)
@@ -187840,22 +187253,10 @@
 		(uuid "d0ce7fa1-63e8-49d3-a881-9e53a5d74d13")
 	)
 	(junction
-		(at 93.98 367.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d0ec1f4f-2e07-47bc-90f6-65f0042136f7")
-	)
-	(junction
 		(at 638.81 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2580428-bc12-4a5b-8c07-a780adae807f")
-	)
-	(junction
-		(at 130.81 349.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d341205e-cc3a-47c8-b691-ee01ed1ea082")
 	)
 	(junction
 		(at 58.42 372.11)
@@ -187874,18 +187275,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6b801df-9705-495a-ae16-16ba1501c9c7")
-	)
-	(junction
-		(at 138.43 353.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8cbf51c-ad88-41b7-8bdf-367506638d73")
-	)
-	(junction
-		(at 138.43 340.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d947fc6f-da0c-4af4-a4df-679bb87bcbdc")
 	)
 	(junction
 		(at 746.76 57.15)
@@ -187964,12 +187353,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2f65422-cd6e-49a9-9240-dfa1c7b846a0")
-	)
-	(junction
-		(at 138.43 356.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3db3356-dc74-4ad4-96f5-22844a839ed1")
 	)
 	(junction
 		(at 699.77 240.03)
@@ -188060,12 +187443,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7110516-1310-4e4d-99ac-4a161ec16101")
-	)
-	(junction
-		(at 130.81 382.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f75f3707-4f95-426c-80b7-7fd1cfc5b22b")
 	)
 	(junction
 		(at 699.77 186.69)
@@ -188169,16 +187546,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 335.28) (xy 130.81 340.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "040e5e58-4180-463c-b169-fc58c51e324e")
-	)
-	(wire
-		(pts
 			(xy 699.77 214.63) (xy 699.77 217.17)
 		)
 		(stroke
@@ -188186,26 +187553,6 @@
 			(type default)
 		)
 		(uuid "0576156f-28b0-405b-9f38-8f5a6ed370ed")
-	)
-	(wire
-		(pts
-			(xy 130.81 356.87) (xy 132.08 356.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05b35952-f89e-479b-9549-db2aa6f4296a")
-	)
-	(wire
-		(pts
-			(xy 137.16 356.87) (xy 138.43 356.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06e8a1e8-99c6-41a3-b98a-e6df59559307")
 	)
 	(wire
 		(pts
@@ -188246,16 +187593,6 @@
 			(type default)
 		)
 		(uuid "09096d19-0e37-4ca5-ab0c-e1620f642cbf")
-	)
-	(wire
-		(pts
-			(xy 138.43 335.28) (xy 138.43 340.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09aa4773-daae-476e-87d4-1bb357e5bf15")
 	)
 	(wire
 		(pts
@@ -188309,16 +187646,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 361.95) (xy 101.6 367.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d3e6e23-441f-4069-8e8f-ca4cd5519c5b")
-	)
-	(wire
-		(pts
 			(xy 807.72 74.93) (xy 807.72 77.47)
 		)
 		(stroke
@@ -188326,26 +187653,6 @@
 			(type default)
 		)
 		(uuid "0d66f4e0-85df-49e8-82bd-aee1925fdf7b")
-	)
-	(wire
-		(pts
-			(xy 130.81 382.27) (xy 130.81 387.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e50d135-4c39-4e51-9c6f-43afbdbeee92")
-	)
-	(wire
-		(pts
-			(xy 137.16 353.06) (xy 138.43 353.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0eb58fcd-51da-40b2-b414-cfe1fe66bd22")
 	)
 	(wire
 		(pts
@@ -188437,6 +187744,16 @@
 		)
 		(uuid "13d6cecb-ee92-4207-97bf-58fa1bec8bc7")
 	)
+	(bus
+		(pts
+			(xy 441.96 439.42) (xy 444.5 439.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14a65fd5-2263-47dd-b9cd-f1cbb1ef32f3")
+	)
 	(wire
 		(pts
 			(xy 701.04 46.99) (xy 701.04 49.53)
@@ -188459,23 +187776,13 @@
 	)
 	(bus
 		(pts
-			(xy 467.36 364.49) (xy 469.9 364.49)
+			(xy 441.96 372.11) (xy 444.5 372.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "16c3a38d-8bf0-42a9-aec6-d1bcef74c775")
-	)
-	(wire
-		(pts
-			(xy 130.81 377.19) (xy 130.81 382.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "170598ff-7ef3-484c-b15e-a8193c176a7b")
 	)
 	(wire
 		(pts
@@ -188519,6 +187826,16 @@
 	)
 	(wire
 		(pts
+			(xy 441.96 365.76) (xy 444.5 365.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a4b4cf9-efb7-4239-89f7-1389167b90b5")
+	)
+	(wire
+		(pts
 			(xy 746.76 92.71) (xy 746.76 95.25)
 		)
 		(stroke
@@ -188559,6 +187876,16 @@
 	)
 	(wire
 		(pts
+			(xy 441.96 377.19) (xy 444.5 377.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1de72bf8-efc1-4e29-bf93-2a52c54ccd84")
+	)
+	(wire
+		(pts
 			(xy 746.76 125.73) (xy 746.76 128.27)
 		)
 		(stroke
@@ -188569,7 +187896,7 @@
 	)
 	(bus
 		(pts
-			(xy 467.36 389.89) (xy 469.9 389.89)
+			(xy 441.96 407.67) (xy 444.5 407.67)
 		)
 		(stroke
 			(width 0)
@@ -188659,16 +187986,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 345.44) (xy 138.43 345.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2936f616-7ea1-4bfe-8cd1-8f51c3c6a37e")
-	)
-	(wire
-		(pts
 			(xy 638.81 191.77) (xy 638.81 194.31)
 		)
 		(stroke
@@ -188729,16 +188046,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 367.03) (xy 93.98 372.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2da59257-3153-4714-b529-6676c1092381")
-	)
-	(wire
-		(pts
 			(xy 699.77 262.89) (xy 699.77 265.43)
 		)
 		(stroke
@@ -188769,7 +188076,7 @@
 	)
 	(bus
 		(pts
-			(xy 467.36 394.97) (xy 469.9 394.97)
+			(xy 441.96 415.29) (xy 444.5 415.29)
 		)
 		(stroke
 			(width 0)
@@ -188919,16 +188226,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 341.63) (xy 101.6 346.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3abb0d56-5cc9-4738-b83c-fc47905ddbbb")
-	)
-	(wire
-		(pts
 			(xy 701.04 57.15) (xy 701.04 59.69)
 		)
 		(stroke
@@ -188947,19 +188244,9 @@
 		)
 		(uuid "3eefd1dc-7b71-42dd-be93-e22191e30187")
 	)
-	(wire
-		(pts
-			(xy 138.43 356.87) (xy 138.43 360.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f06d90f-5853-4d5d-9821-aae5089620a2")
-	)
 	(bus
 		(pts
-			(xy 467.36 379.73) (xy 469.9 379.73)
+			(xy 441.96 397.51) (xy 444.5 397.51)
 		)
 		(stroke
 			(width 0)
@@ -189019,6 +188306,16 @@
 	)
 	(wire
 		(pts
+			(xy 441.96 368.3) (xy 444.5 368.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "467c04d1-4fc7-435f-a556-5de7c24d2d67")
+	)
+	(wire
+		(pts
 			(xy 762 128.27) (xy 762 130.81)
 		)
 		(stroke
@@ -189037,19 +188334,9 @@
 		)
 		(uuid "47c3eb2e-fdc1-4d6b-ab14-35caf3259f39")
 	)
-	(wire
-		(pts
-			(xy 130.81 345.44) (xy 130.81 349.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48322159-b080-42d8-bac3-b22edb19f9f0")
-	)
 	(bus
 		(pts
-			(xy 467.36 392.43) (xy 469.9 392.43)
+			(xy 441.96 411.48) (xy 444.5 411.48)
 		)
 		(stroke
 			(width 0)
@@ -189089,7 +188376,7 @@
 	)
 	(bus
 		(pts
-			(xy 467.36 377.19) (xy 469.9 377.19)
+			(xy 441.96 394.97) (xy 444.5 394.97)
 		)
 		(stroke
 			(width 0)
@@ -189259,16 +188546,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 349.25) (xy 130.81 353.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "588fc59f-9acb-455d-9073-ec69d2b8dfe9")
-	)
-	(wire
-		(pts
 			(xy 701.04 41.91) (xy 701.04 44.45)
 		)
 		(stroke
@@ -189279,7 +188556,7 @@
 	)
 	(bus
 		(pts
-			(xy 467.36 387.35) (xy 469.9 387.35)
+			(xy 441.96 405.13) (xy 444.5 405.13)
 		)
 		(stroke
 			(width 0)
@@ -189316,16 +188593,6 @@
 			(type default)
 		)
 		(uuid "5e843b4b-0530-4ee3-84fd-8f5b154e3d40")
-	)
-	(wire
-		(pts
-			(xy 130.81 353.06) (xy 130.81 356.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ee236dd-236b-45b5-940f-12cbc8f57948")
 	)
 	(wire
 		(pts
@@ -189389,16 +188656,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 361.95) (xy 93.98 367.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6542bdfb-369b-4703-99b9-0bacefc7189b")
-	)
-	(wire
-		(pts
 			(xy 746.76 120.65) (xy 746.76 123.19)
 		)
 		(stroke
@@ -189406,6 +188663,26 @@
 			(type default)
 		)
 		(uuid "660264aa-b1f5-47bf-a655-6ecf207f0771")
+	)
+	(bus
+		(pts
+			(xy 605.79 364.49) (xy 608.33 364.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "683979b8-d632-4b75-8d84-784a883a29e9")
+	)
+	(bus
+		(pts
+			(xy 441.96 431.8) (xy 444.5 431.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69da2c95-20e3-45f3-b1fe-73991aaf6943")
 	)
 	(wire
 		(pts
@@ -189476,16 +188753,6 @@
 			(type default)
 		)
 		(uuid "6e2338fa-8dc0-4559-88b0-fac3cedae38d")
-	)
-	(wire
-		(pts
-			(xy 130.81 345.44) (xy 132.08 345.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e5f61f7-4b85-4c1c-a7dc-c5c436b19a70")
 	)
 	(wire
 		(pts
@@ -189589,16 +188856,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 377.19) (xy 138.43 382.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "758fa682-5a11-4cb6-8bd5-ee37c4d60399")
-	)
-	(wire
-		(pts
 			(xy 746.76 148.59) (xy 746.76 151.13)
 		)
 		(stroke
@@ -189647,6 +188904,16 @@
 		)
 		(uuid "7b20071b-a51a-4149-b95e-61704313ed70")
 	)
+	(bus
+		(pts
+			(xy 441.96 429.26) (xy 444.5 429.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b58a0d6-9df2-42bb-8306-00a7c86fdb4f")
+	)
 	(wire
 		(pts
 			(xy 746.76 113.03) (xy 746.76 115.57)
@@ -189679,7 +188946,7 @@
 	)
 	(bus
 		(pts
-			(xy 467.36 361.95) (xy 469.9 361.95)
+			(xy 441.96 363.22) (xy 444.5 363.22)
 		)
 		(stroke
 			(width 0)
@@ -189746,16 +189013,6 @@
 			(type default)
 		)
 		(uuid "8204d17c-aaa3-4c5f-a40b-08638bd45e8f")
-	)
-	(wire
-		(pts
-			(xy 138.43 360.68) (xy 137.16 360.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8221d738-fb00-4da7-a670-5cb51b0c8a89")
 	)
 	(wire
 		(pts
@@ -189849,16 +189106,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 382.27) (xy 138.43 387.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e0c4589-7e18-43ed-bdfe-27d7dee94c77")
-	)
-	(wire
-		(pts
 			(xy 746.76 118.11) (xy 746.76 120.65)
 		)
 		(stroke
@@ -189926,6 +189173,16 @@
 			(type default)
 		)
 		(uuid "909a9318-ebc8-4f64-9cd4-45d12dec66cc")
+	)
+	(bus
+		(pts
+			(xy 441.96 426.72) (xy 444.5 426.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91bfccaf-6319-4496-adac-e306693e7d8e")
 	)
 	(wire
 		(pts
@@ -190087,19 +189344,9 @@
 		)
 		(uuid "a065c476-9b76-4734-aefe-d0fe8913e619")
 	)
-	(wire
-		(pts
-			(xy 101.6 336.55) (xy 101.6 341.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0d3e60a-a449-4b4a-90b5-45410bf569ee")
-	)
 	(bus
 		(pts
-			(xy 467.36 374.65) (xy 469.9 374.65)
+			(xy 441.96 392.43) (xy 444.5 392.43)
 		)
 		(stroke
 			(width 0)
@@ -190119,26 +189366,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 349.25) (xy 138.43 349.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a31b8471-2349-45db-8cc2-d70c9e4a8ee5")
-	)
-	(wire
-		(pts
-			(xy 138.43 340.36) (xy 138.43 345.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a39c5e39-5c33-4226-8b21-9d229d09d6b8")
-	)
-	(wire
-		(pts
 			(xy 58.42 334.01) (xy 58.42 336.55)
 		)
 		(stroke
@@ -190149,7 +189376,17 @@
 	)
 	(bus
 		(pts
-			(xy 467.36 382.27) (xy 469.9 382.27)
+			(xy 605.79 369.57) (xy 608.33 369.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6102129-9f6c-41eb-8065-90996f12fcf8")
+	)
+	(bus
+		(pts
+			(xy 441.96 400.05) (xy 444.5 400.05)
 		)
 		(stroke
 			(width 0)
@@ -190166,16 +189403,6 @@
 			(type default)
 		)
 		(uuid "a812feea-7bca-47b5-9f87-9fde9ed22967")
-	)
-	(wire
-		(pts
-			(xy 127 349.25) (xy 130.81 349.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a93a1e7e-9140-44e6-a511-35c96b666563")
 	)
 	(wire
 		(pts
@@ -190219,7 +189446,7 @@
 	)
 	(bus
 		(pts
-			(xy 467.36 368.3) (xy 469.9 368.3)
+			(xy 441.96 383.54) (xy 444.5 383.54)
 		)
 		(stroke
 			(width 0)
@@ -190329,7 +189556,7 @@
 	)
 	(bus
 		(pts
-			(xy 467.36 372.11) (xy 469.9 372.11)
+			(xy 441.96 389.89) (xy 444.5 389.89)
 		)
 		(stroke
 			(width 0)
@@ -190356,6 +189583,16 @@
 			(type default)
 		)
 		(uuid "b41e2ee6-911b-4ebb-9bf0-1a438cc8c32a")
+	)
+	(bus
+		(pts
+			(xy 525.78 368.3) (xy 528.32 368.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6d43772-b1be-409b-9def-41582bbe4c09")
 	)
 	(wire
 		(pts
@@ -190436,16 +189673,6 @@
 			(type default)
 		)
 		(uuid "bca29ae3-00b8-4aae-9a4d-df99a5e673dc")
-	)
-	(wire
-		(pts
-			(xy 130.81 353.06) (xy 132.08 353.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd4257af-f811-4ddc-a434-ca83116c1c1b")
 	)
 	(wire
 		(pts
@@ -190559,16 +189786,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 349.25) (xy 132.08 349.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c52fc262-59c5-4620-8927-2d7e848c5d21")
-	)
-	(wire
-		(pts
 			(xy 807.72 82.55) (xy 807.72 85.09)
 		)
 		(stroke
@@ -190619,16 +189836,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 341.63) (xy 93.98 346.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca604989-7b04-4068-952e-e5e553cf76fe")
-	)
-	(wire
-		(pts
 			(xy 699.77 285.75) (xy 699.77 288.29)
 		)
 		(stroke
@@ -190669,16 +189876,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 336.55) (xy 93.98 341.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0c40e97-12b3-4e0b-a7ce-7476ca34a027")
-	)
-	(wire
-		(pts
 			(xy 762 92.71) (xy 762 95.25)
 		)
 		(stroke
@@ -190686,16 +189883,6 @@
 			(type default)
 		)
 		(uuid "d1162ff8-b986-456e-bf05-87f6976ea4cf")
-	)
-	(wire
-		(pts
-			(xy 101.6 367.03) (xy 101.6 372.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d218dfc3-677b-4fbd-af97-594784b1e34c")
 	)
 	(wire
 		(pts
@@ -190767,6 +189954,16 @@
 		)
 		(uuid "dc6f43ac-f7d8-4376-ab12-a0c98813bebb")
 	)
+	(bus
+		(pts
+			(xy 441.96 434.34) (xy 444.5 434.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd2003a6-56ee-434d-bda0-6b434bca69bf")
+	)
 	(wire
 		(pts
 			(xy 746.76 57.15) (xy 746.76 59.69)
@@ -190776,16 +189973,6 @@
 			(type default)
 		)
 		(uuid "dd22ded4-1520-4a21-a796-b9429aa151c8")
-	)
-	(wire
-		(pts
-			(xy 130.81 340.36) (xy 130.81 345.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd7256b6-96b3-46c5-83b0-4c444fae2a2e")
 	)
 	(wire
 		(pts
@@ -190849,16 +190036,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 345.44) (xy 138.43 349.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df8f49f9-5a70-4c0c-8595-030e782a19d0")
-	)
-	(wire
-		(pts
 			(xy 635 290.83) (xy 638.81 290.83)
 		)
 		(stroke
@@ -190906,16 +190083,6 @@
 			(type default)
 		)
 		(uuid "e1a225e5-76ca-49e5-b18d-0289bfba274f")
-	)
-	(wire
-		(pts
-			(xy 138.43 349.25) (xy 138.43 353.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2eb7059-f313-47d1-9665-d57735be6e3c")
 	)
 	(wire
 		(pts
@@ -191039,16 +190206,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 356.87) (xy 130.81 360.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e99c93e3-95eb-4645-a97f-aaf276c2ae7c")
-	)
-	(wire
-		(pts
 			(xy 746.76 90.17) (xy 746.76 92.71)
 		)
 		(stroke
@@ -191119,7 +190276,7 @@
 	)
 	(bus
 		(pts
-			(xy 467.36 384.81) (xy 469.9 384.81)
+			(xy 441.96 402.59) (xy 444.5 402.59)
 		)
 		(stroke
 			(width 0)
@@ -191169,6 +190326,16 @@
 	)
 	(wire
 		(pts
+			(xy 441.96 374.65) (xy 444.5 374.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f658cb4d-362c-482d-be19-3b7a04b292e7")
+	)
+	(wire
+		(pts
 			(xy 58.42 389.89) (xy 58.42 392.43)
 		)
 		(stroke
@@ -191186,16 +190353,6 @@
 			(type default)
 		)
 		(uuid "f84aac2b-abe6-4738-8922-f8aa46b57bdb")
-	)
-	(wire
-		(pts
-			(xy 130.81 360.68) (xy 132.08 360.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8a6ca26-bf8d-4ed8-bad9-d217105af65f")
 	)
 	(wire
 		(pts
@@ -191249,16 +190406,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 353.06) (xy 138.43 356.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb5774ed-b26c-4e96-abd0-3e796b6bbce4")
-	)
-	(wire
-		(pts
 			(xy 638.81 219.71) (xy 638.81 222.25)
 		)
 		(stroke
@@ -191279,7 +190426,7 @@
 	)
 	(bus
 		(pts
-			(xy 467.36 397.51) (xy 469.9 397.51)
+			(xy 441.96 419.1) (xy 444.5 419.1)
 		)
 		(stroke
 			(width 0)
@@ -195945,9 +195092,20 @@
 			)
 		)
 	)
+	(hierarchical_label "{FMC_DB_B18}"
+		(shape bidirectional)
+		(at 441.96 434.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "026fe5de-b756-4124-a344-15ff777609a4")
+	)
 	(hierarchical_label "H3{RAM_DB}"
 		(shape bidirectional)
-		(at 467.36 389.89 180)
+		(at 441.96 407.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -195958,7 +195116,7 @@
 	)
 	(hierarchical_label "{RAM_CTRL}"
 		(shape output)
-		(at 467.36 394.97 180)
+		(at 441.96 415.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -195969,7 +195127,7 @@
 	)
 	(hierarchical_label "{VADJ_CTRL}"
 		(shape output)
-		(at 467.36 368.3 180)
+		(at 441.96 383.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -195980,7 +195138,7 @@
 	)
 	(hierarchical_label "{RAM_A}"
 		(shape output)
-		(at 467.36 392.43 180)
+		(at 441.96 411.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -195989,9 +195147,20 @@
 		)
 		(uuid "2253a492-2706-48eb-97d5-5e76c6d93ad9")
 	)
+	(hierarchical_label "IDC_B13_CLK"
+		(shape output)
+		(at 441.96 365.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "27ddf551-af29-4466-a6d6-99a0b701e200")
+	)
 	(hierarchical_label "B13{IDC_DB}"
 		(shape bidirectional)
-		(at 467.36 361.95 180)
+		(at 441.96 363.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -196000,9 +195169,20 @@
 		)
 		(uuid "4f086dd7-d717-44c2-9299-1a11b9d5f57a")
 	)
+	(hierarchical_label "{FMC_CLK}"
+		(shape input)
+		(at 441.96 426.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5985bba8-9e20-46e0-9a80-45b659dda72f")
+	)
 	(hierarchical_label "L2{RAM_DB}"
 		(shape bidirectional)
-		(at 467.36 382.27 180)
+		(at 441.96 400.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -196013,7 +195193,7 @@
 	)
 	(hierarchical_label "L3{RAM_DB}"
 		(shape bidirectional)
-		(at 467.36 387.35 180)
+		(at 441.96 405.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -196024,7 +195204,7 @@
 	)
 	(hierarchical_label "L0{RAM_DB}"
 		(shape bidirectional)
-		(at 467.36 372.11 180)
+		(at 441.96 389.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -196035,7 +195215,7 @@
 	)
 	(hierarchical_label "H2{RAM_DB}"
 		(shape bidirectional)
-		(at 467.36 384.81 180)
+		(at 441.96 402.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -196046,7 +195226,7 @@
 	)
 	(hierarchical_label "H1{RAM_DB}"
 		(shape bidirectional)
-		(at 467.36 379.73 180)
+		(at 441.96 397.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -196055,9 +195235,53 @@
 		)
 		(uuid "960670a0-2eb1-45ac-bd34-5c3156172512")
 	)
+	(hierarchical_label "IDC_B14_CLK"
+		(shape output)
+		(at 441.96 374.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9d2475dc-8e89-4f71-aab6-f9a05236ae46")
+	)
+	(hierarchical_label "IDC_B14_WRT"
+		(shape output)
+		(at 441.96 377.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a43c9395-2bd9-4b51-b983-afd683bc728d")
+	)
+	(hierarchical_label "{FMC_DB_B17}"
+		(shape bidirectional)
+		(at 441.96 431.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b6022068-5961-41d7-9a59-6e5690535048")
+	)
+	(hierarchical_label "IDC_B13_WRT"
+		(shape output)
+		(at 441.96 368.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c5fcd2cb-081a-4d31-9f44-08a06f7d18d6")
+	)
 	(hierarchical_label "{RAM_CLK}"
 		(shape output)
-		(at 467.36 397.51 180)
+		(at 441.96 419.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -196066,9 +195290,53 @@
 		)
 		(uuid "d451642d-5482-46df-b7de-4c377e795edc")
 	)
+	(hierarchical_label "{FMC_GTXCLK}"
+		(shape input)
+		(at 605.79 364.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "da8c0fd8-4717-4130-b94b-91ad894cc581")
+	)
+	(hierarchical_label "{FMC_I2C}"
+		(shape bidirectional)
+		(at 441.96 439.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dac2069f-2dac-4420-9556-afdd7a8edad5")
+	)
+	(hierarchical_label "{FMC_JTAG}"
+		(shape bidirectional)
+		(at 525.78 368.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dacf8d99-a61a-4f19-afa7-17fd14939f8c")
+	)
+	(hierarchical_label "{FMC_DB_B16}"
+		(shape bidirectional)
+		(at 441.96 429.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2ac699e-ee26-4fe2-9348-77d5dc8d25f7")
+	)
 	(hierarchical_label "H0{RAM_DB}"
 		(shape bidirectional)
-		(at 467.36 374.65 180)
+		(at 441.96 392.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -196079,7 +195347,7 @@
 	)
 	(hierarchical_label "B14{IDC_DB}"
 		(shape bidirectional)
-		(at 467.36 364.49 180)
+		(at 441.96 372.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -196090,7 +195358,7 @@
 	)
 	(hierarchical_label "L1{RAM_DB}"
 		(shape bidirectional)
-		(at 467.36 377.19 180)
+		(at 441.96 394.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -196099,241 +195367,16 @@
 		)
 		(uuid "ef0b8d64-b75a-4443-96bb-d76756cb2cda")
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 101.6 341.63 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00a25c4d-8741-4558-826b-97ed966e1bc8")
-		(property "Reference" "#PWR010"
-			(at 107.95 341.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	(hierarchical_label "{FMC_GTXDB}"
+		(shape bidirectional)
+		(at 605.79 369.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" "GND"
-			(at 106.68 341.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 341.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 341.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 341.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b4529fb0-318b-45bd-9406-834f418dee41")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V0")
-		(at 93.98 341.63 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "02d35f9f-715f-4448-8539-5af6ed39ec12")
-		(property "Reference" "#PWR08"
-			(at 97.79 341.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+1V0"
-			(at 90.17 341.6299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Renesas_UQFN-16_2x2mm_P0.4mm"
-			(at 93.98 341.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 341.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 93.98 341.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4a59440a-c65c-4829-b753-c1dcecb84730")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V0")
-		(at 166.37 367.03 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "05700b7a-6617-43fa-b463-d6e0620a84e8")
-		(property "Reference" "#PWR018"
-			(at 170.18 367.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VADJ"
-			(at 162.56 367.0299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Renesas_UQFN-16_2x2mm_P0.4mm"
-			(at 166.37 367.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 367.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 166.37 367.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d6e94530-805d-4779-addf-fed7cba116b6")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "ffa3598a-5684-4c2e-80a9-64bd03ff52ec")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -196347,7 +195390,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d619440-8984-4f2e-89bd-55572f235908")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR038"
 			(at 699.77 312.42 0)
 			(hide yes)
 			(show_name no)
@@ -196407,7 +195450,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "#PWR039")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -202011,167 +201054,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 170.18 367.03 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "15f64766-e938-40bf-b6a9-74887c97d233")
-		(property "Reference" "C19"
-			(at 170.18 370.84 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47 μF"
-			(at 170.18 362.712 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 366.0648 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 367.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 170.18 367.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7e94ae43-0a51-4ced-8054-946d7c75bd75")
-		)
-		(pin "2"
-			(uuid "a3211a8c-5a35-43bb-8399-137cc302604b")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 97.79 346.71 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1761eeb7-3dfb-4bb0-ade5-47dfb78158ee")
-		(property "Reference" "C3"
-			(at 90.932 346.71 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "330 μF"
-			(at 99.0599 342.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 345.7448 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 346.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 97.79 346.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "43c9ddd7-6a8e-4183-9849-881b559b9ab7")
-		)
-		(pin "2"
-			(uuid "8c3661cf-1ea4-44bb-b291-83e6c67eac95")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "XC7K325T-3FFG900E_10")
 		(lib_id "2026-10-05_20-13-35:XC7K325T-3FFG900E")
 		(at 34.29 168.91 0)
@@ -204971,245 +203853,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 97.79 372.11 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1a030246-1bc2-4b5d-a54d-b6787ccc0241")
-		(property "Reference" "C6"
-			(at 92.456 372.11 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47 μF"
-			(at 99.0599 368.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 371.1448 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 372.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 97.79 372.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6a42f550-bd4e-4fba-a839-5895ecd5a758")
-		)
-		(pin "2"
-			(uuid "991ded30-667c-4972-88af-c5eb25e3c924")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V0")
-		(at 166.37 382.27 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1a967c28-560c-45ed-9a78-a198e6d2da4b")
-		(property "Reference" "#PWR019"
-			(at 170.18 382.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 162.56 382.2699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Renesas_UQFN-16_2x2mm_P0.4mm"
-			(at 166.37 382.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 382.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 166.37 382.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4a454b91-0dd8-4d20-8fb1-d7992a7d1f58")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 200.66 367.03 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1d91aab2-17a9-41e0-803f-1aeeb65c378e")
-		(property "Reference" "C23"
-			(at 200.66 370.84 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47 μF"
-			(at 200.66 362.712 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 366.0648 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 367.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 200.66 367.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "403f0ccb-950b-40bb-b5bf-5ba3dfb86aab")
-		)
-		(pin "2"
-			(uuid "d133b902-89b8-45c6-b57c-c6cc4436c4c4")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 636.27 179.07 270)
 		(unit 1)
@@ -205282,88 +203925,6 @@
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
 					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 134.62 349.25 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2524ba26-5dc6-4bf3-871f-4cb513ed4513")
-		(property "Reference" "C10"
-			(at 126.492 348.234 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4.7 μF"
-			(at 135.8899 346.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 144.78 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5476ad71-7ca2-4438-bcd8-79355b75d7a1")
-		)
-		(pin "2"
-			(uuid "2661fa24-f69d-4902-8cbd-e38cf8a989f4")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -205448,164 +204009,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 134.62 377.19 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "27d8e1b9-1a21-4b8e-b9e4-97abe9051a68")
-		(property "Reference" "C14"
-			(at 131.318 375.666 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47 μF"
-			(at 134.62 372.618 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 376.2248 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 377.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 134.62 377.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fed8547d-1958-4089-8d7a-1361b9d4731b")
-		)
-		(pin "2"
-			(uuid "c88356c5-7169-4088-8835-d772b05108af")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V0")
-		(at 196.85 382.27 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a1d81be-597e-40f1-8dac-7393b20abd17")
-		(property "Reference" "#PWR027"
-			(at 200.66 382.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 193.04 382.2699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Renesas_UQFN-16_2x2mm_P0.4mm"
-			(at 196.85 382.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 382.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 196.85 382.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "99582591-67ad-4399-bd27-192ecdaae567")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 58.42 394.97 0)
 		(unit 1)
@@ -205678,169 +204081,6 @@
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 200.66 351.79 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "345e7344-513e-4646-b89a-cdb3b3e7df14")
-		(property "Reference" "C22"
-			(at 200.66 355.6 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47 μF"
-			(at 200.66 347.472 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 350.8248 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 351.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 200.66 351.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e55dac7b-dd21-43cd-918f-dcec4ed5ba64")
-		)
-		(pin "2"
-			(uuid "df0ea375-44a1-4245-ada0-f5ca058fb89b")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 134.62 382.27 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3567c462-a7f1-4cf6-ba4d-87051f306a19")
-		(property "Reference" "C15"
-			(at 133.3499 378.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47 μF"
-			(at 135.8899 378.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 381.3048 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 382.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 134.62 382.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5ee25999-ae25-4995-8106-088f489c1f45")
-		)
-		(pin "2"
-			(uuid "2707764e-46f2-4fd6-93ec-cdad39285a5b")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -208645,87 +206885,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 134.62 356.87 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3ddaeccf-d21b-4e98-a45f-71d91242eccc")
-		(property "Reference" "C12"
-			(at 128.27 356.87 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7 μF"
-			(at 135.8899 354.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 356.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 356.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 144.78 356.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6b4977af-7d53-466f-9db9-f3a690c5599c")
-		)
-		(pin "2"
-			(uuid "524fbaf6-95ae-4ff1-85ae-e68c87902eb8")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+1V0")
 		(at 74.93 311.15 0)
 		(unit 1)
@@ -208804,84 +206963,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 101.6 367.03 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3fff164f-8d16-4eae-9732-a9ad412708e8")
-		(property "Reference" "#PWR011"
-			(at 107.95 367.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 106.68 367.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 367.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 367.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 367.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a84b0cc1-2faf-4754-af9a-7848de76fbbd")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+1V0")
 		(at 701.04 26.67 0)
 		(unit 1)
@@ -208893,7 +206974,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "407eecae-63db-481e-8a40-391b20ef920b")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR039"
 			(at 701.04 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -208953,165 +207034,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 170.18 382.27 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "40e2b2e3-7f1e-4d18-bae7-98bf6b59d69c")
-		(property "Reference" "C20"
-			(at 170.18 386.08 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47 μF"
-			(at 170.18 377.952 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 381.3048 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 382.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 170.18 382.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f6cd6e36-5f71-4e46-ad75-97d562aa0936")
-		)
-		(pin "2"
-			(uuid "d6245ce4-275c-4957-8a1c-ffc232103ec3")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 134.62 335.28 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "41aca687-3a9a-4d7d-a8c7-891b878d2c82")
-		(property "Reference" "C7"
-			(at 128.778 335.28 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100 μF"
-			(at 142.748 337.82 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 334.3148 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 335.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 134.62 335.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9a5a7fa7-20d8-4526-90af-bd3b9135a04c")
-		)
-		(pin "2"
-			(uuid "057e8a69-7dad-4cfb-8e67-dd9faf9a6bf4")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "C7")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -209197,163 +207120,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 138.43 349.25 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46855a02-01cd-402b-88bf-7c364cac7f7d")
-		(property "Reference" "#PWR014"
-			(at 144.78 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 143.51 349.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dd2e7b6f-e29d-4f3b-be6d-16c3436a9d3d")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 204.47 382.27 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "477b06cd-7686-4eab-9f12-5606b5fa7c80")
-		(property "Reference" "#PWR031"
-			(at 210.82 382.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 208.28 382.2699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 382.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 382.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 382.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "29896e0f-570b-447c-990f-2becebb55ee2")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+1V8")
 		(at 62.23 311.15 0)
 		(unit 1)
@@ -209426,87 +207192,6 @@
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 134.62 387.35 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4bdc7476-0d2a-4aac-8e5e-81b201cfb47a")
-		(property "Reference" "C16"
-			(at 131.318 388.874 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47 μF"
-			(at 135.8899 383.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 386.3848 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 387.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 134.62 387.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f6217053-431b-40e4-a0c5-af9eb4c85ffa")
-		)
-		(pin "2"
-			(uuid "7dd844ce-1b49-414d-b56a-365728d82521")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -209591,323 +207276,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V0")
-		(at 196.85 351.79 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "538fd79a-6aed-4b20-bb4b-454c9eb3d9b6")
-		(property "Reference" "#PWR025"
-			(at 200.66 351.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+1V5"
-			(at 193.04 351.7899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Renesas_UQFN-16_2x2mm_P0.4mm"
-			(at 196.85 351.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 351.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 196.85 351.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1fd6b163-8e3a-43ad-9fb3-ca29ac1fc637")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 138.43 382.27 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5824941e-c0c0-4785-ac14-f03f795f7dff")
-		(property "Reference" "#PWR015"
-			(at 144.78 382.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 143.51 382.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 382.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 382.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 382.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ca093779-3a90-496c-ad51-d67a74063237")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 204.47 336.55 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a002fbf-ac33-4f3b-8a69-9ae7bf64ea17")
-		(property "Reference" "#PWR028"
-			(at 210.82 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 208.28 336.5499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1676de1d-7a6c-40e8-ab3e-eabe104c0a36")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 134.62 353.06 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5cf0f829-fcd1-4376-9d7d-1d3dadc37175")
-		(property "Reference" "C11"
-			(at 128.27 353.06 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7 μF"
-			(at 135.8899 350.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 353.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 353.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 144.78 353.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4caa48b4-79ca-41e4-a71a-45b1a28097ff")
-		)
-		(pin "2"
-			(uuid "e8cba74c-7c9a-44f6-971d-53f0b7ed6ef7")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+1V5")
 		(at 808.99 69.85 270)
 		(unit 1)
@@ -209981,85 +207349,6 @@
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
 					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 173.99 336.55 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "60ab99bd-1635-4fcf-8e78-e571c8664896")
-		(property "Reference" "#PWR020"
-			(at 180.34 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 177.8 336.5499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 173.99 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f3062ca1-ea57-4eac-8d81-bc6dff08e788")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -215741,244 +213030,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 204.47 351.79 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6eecca30-cd14-4a56-8a43-c6c96f7c73c9")
-		(property "Reference" "#PWR029"
-			(at 210.82 351.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 208.28 351.7899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 351.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 351.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 351.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3c3f5c4b-7fdd-483f-a2e3-f63c25ba6b0a")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 173.99 382.27 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7239b0dd-940a-4014-b97b-f489dca890fb")
-		(property "Reference" "#PWR023"
-			(at 180.34 382.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 177.8 382.2699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 382.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 382.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 173.99 382.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "99867c92-2ec6-4883-ba7e-fd49384ae180")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 97.79 336.55 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "839b0920-d2c8-4aee-8865-6d1bf395fae9")
-		(property "Reference" "C1"
-			(at 90.932 336.55 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "330 μF"
-			(at 105.918 336.55 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 335.5848 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 97.79 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f6570cc6-05d5-495b-92b9-4cd81a3dda2c")
-		)
-		(pin "2"
-			(uuid "b4a7a4cb-1996-4404-b526-f3961b5d1fb9")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "XC7K325T-3FFG900E_3")
 		(lib_id "2026-10-05_20-13-35:XC7K325T-3FFG900E")
 		(at 358.14 25.4 0)
@@ -218779,164 +215830,6 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 196.85 336.55 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87471b5a-dacc-407d-a0aa-0c8ada0ec9fe")
-		(property "Reference" "#PWR024"
-			(at 200.66 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+1V5"
-			(at 193.04 336.5499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Renesas_UQFN-16_2x2mm_P0.4mm"
-			(at 196.85 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 196.85 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b0674000-7f73-478f-94c0-cba6970c03b2")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V0")
-		(at 166.37 351.79 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87980244-ce78-4da2-a0ab-abb6b1109c01")
-		(property "Reference" "#PWR017"
-			(at 170.18 351.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VADJ"
-			(at 162.56 351.7899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Renesas_UQFN-16_2x2mm_P0.4mm"
-			(at 166.37 351.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 351.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 166.37 351.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b14a11cc-75e9-4d87-a693-ce47d2a215f5")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V0")
 		(at 699.77 82.55 90)
 		(unit 1)
 		(body_style 1)
@@ -219095,85 +215988,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 173.99 351.79 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95d19990-e36a-40cc-aa80-ca549e21111c")
-		(property "Reference" "#PWR021"
-			(at 180.34 351.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 177.8 351.7899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 351.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 351.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 173.99 351.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "89a8c229-c81c-4d6b-b370-9cf550ae8c79")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+1V0")
 		(at 49.53 311.15 0)
 		(unit 1)
@@ -219246,87 +216060,6 @@
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 97.79 367.03 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9c30ddeb-65b4-4a32-9560-1c636d95d4cd")
-		(property "Reference" "C5"
-			(at 92.456 364.744 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47 μF"
-			(at 99.0599 363.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 366.0648 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 367.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 97.79 367.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b569b24b-84d2-4e53-9509-5759dc22b511")
-		)
-		(pin "2"
-			(uuid "bae88a52-a799-4dcc-a883-b5674cc15998")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -219411,85 +216144,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 170.18 336.55 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9f1dc153-9510-423c-9bf4-22eaa4eae47d")
-		(property "Reference" "C17"
-			(at 170.18 340.36 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47 μF"
-			(at 170.18 332.232 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 335.5848 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 170.18 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "435735d9-b40c-4638-b747-baa054045719")
-		)
-		(pin "2"
-			(uuid "2bf2a3c9-36e3-4144-bba3-e7f2f84bd00b")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 754.38 156.21 0)
 		(unit 1)
@@ -219562,403 +216216,6 @@
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V0")
-		(at 166.37 336.55 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a870f68a-a1ae-4629-aefd-cb15b278228a")
-		(property "Reference" "#PWR016"
-			(at 170.18 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VADJ"
-			(at 162.56 336.5499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Renesas_UQFN-16_2x2mm_P0.4mm"
-			(at 166.37 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 166.37 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a6269cc5-67db-48d9-82f9-3d23d06bcac9")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V0")
-		(at 196.85 367.03 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ac8972f3-21ca-467b-a710-32f36408fd76")
-		(property "Reference" "#PWR026"
-			(at 200.66 367.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+1V5"
-			(at 193.04 367.0299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Renesas_UQFN-16_2x2mm_P0.4mm"
-			(at 196.85 367.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 367.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 196.85 367.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9650f56b-eb18-4043-a76c-7ed3e2737ad6")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 134.62 345.44 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "acda3ce4-a336-47a5-ae3d-01615524c6cd")
-		(property "Reference" "C9"
-			(at 128.778 345.44 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7 μF"
-			(at 135.8899 342.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 144.78 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8096c1b4-aabf-4c7a-bdca-5c6bf3a4fc04")
-		)
-		(pin "2"
-			(uuid "dd12dfff-c8e6-4da8-9108-56dd4dddffcc")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V0")
-		(at 93.98 367.03 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb8dfad9-6e8b-466c-88ee-545869ca49d4")
-		(property "Reference" "#PWR09"
-			(at 97.79 367.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 90.17 367.0299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Renesas_UQFN-16_2x2mm_P0.4mm"
-			(at 93.98 367.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 367.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 93.98 367.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e1c4a992-75e7-48bb-bf66-618177f0246b")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 97.79 361.95 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bedd93a8-11f5-4bd2-bde6-86598a36b6d1")
-		(property "Reference" "C4"
-			(at 92.456 361.95 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47 μF"
-			(at 97.79 357.632 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 360.9848 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 361.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 97.79 361.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "79d2c0db-57ab-44ab-bfdf-e35d8d225221")
-		)
-		(pin "2"
-			(uuid "a1ae7c66-192c-42f8-ad25-8b20d69c2447")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -228360,85 +224617,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 204.47 367.03 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8a66529-1e6c-4699-b733-72f3f80e8804")
-		(property "Reference" "#PWR030"
-			(at 210.82 367.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 208.28 367.0299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 367.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 367.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 367.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9a6b0abd-c73d-48d1-b112-78b89d37888c")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+1V8")
 		(at 635 255.27 90)
 		(unit 1)
@@ -228518,324 +224696,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 134.62 340.36 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cd7a8123-df72-4c41-970d-1edd8af05b4a")
-		(property "Reference" "C8"
-			(at 128.778 340.36 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100 μF"
-			(at 135.8899 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 339.3948 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 340.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 134.62 340.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2437b833-de14-4d55-be8b-9558ca4bcd9f")
-		)
-		(pin "2"
-			(uuid "494770d5-1609-46df-8108-b6d757a2db01")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 134.62 360.68 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d0d517d3-3cc0-49bb-9305-e7fd49c13ba7")
-		(property "Reference" "C13"
-			(at 128.27 360.68 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7 μF"
-			(at 142.494 354.584 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 360.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 360.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 144.78 360.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "74c200b5-0361-4321-acdb-bd1e2ca4f9d3")
-		)
-		(pin "2"
-			(uuid "c546195c-2a6e-43ab-8187-9d435b678ed7")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 170.18 351.79 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dac340a5-8310-4fa4-9ca2-d92a117f097b")
-		(property "Reference" "C18"
-			(at 170.18 355.6 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47 μF"
-			(at 170.18 347.472 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 350.8248 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 351.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 170.18 351.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5d838da4-296e-43e5-b898-ab7a9dd051ef")
-		)
-		(pin "2"
-			(uuid "dfb8a0ab-3931-4785-9a46-02d7135f4ce2")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 200.66 382.27 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dfe4786a-40f6-401e-ad7f-c0ef926eeda7")
-		(property "Reference" "C24"
-			(at 200.914 386.08 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47 μF"
-			(at 200.66 377.952 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 381.3048 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 382.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 200.66 382.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a931ebb7-c210-474b-83e2-066ec666c454")
-		)
-		(pin "2"
-			(uuid "ce850766-2100-4e33-9fe4-72c883403ad9")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 635 280.67 270)
 		(unit 1)
@@ -228909,245 +224769,6 @@
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 200.66 336.55 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f0b6c9ab-0902-4f2a-928b-1a9e96cc9cc7")
-		(property "Reference" "C21"
-			(at 200.66 340.36 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47 μF"
-			(at 200.66 332.232 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 335.5848 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 200.66 336.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fe8cb72b-06a7-4909-a3d8-03dfc379e6bf")
-		)
-		(pin "2"
-			(uuid "6774b444-10d7-436b-a593-50acae2df3c5")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 97.79 341.63 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f1f506fd-a5a9-40bf-83b8-448901676357")
-		(property "Reference" "C2"
-			(at 92.202 339.344 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330 μF"
-			(at 99.0599 337.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 340.6648 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 341.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 97.79 341.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "476b9e66-70df-4184-9cce-71cc723a6344")
-		)
-		(pin "2"
-			(uuid "ebf2f1a8-8789-4f10-8b71-615a48b2d044")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V0")
-		(at 127 349.25 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f305fdaa-2089-4dcf-8503-c9f695e3878c")
-		(property "Reference" "#PWR012"
-			(at 130.81 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+1V0"
-			(at 123.19 349.2499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Renesas_UQFN-16_2x2mm_P0.4mm"
-			(at 127 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 127 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "99c11415-0dd4-4be7-9ab6-085ffffdf455")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -231951,166 +227572,8 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:+1V0")
-		(at 130.81 382.27 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fae8fb6f-008b-412b-98e8-93ad1f72073b")
-		(property "Reference" "#PWR013"
-			(at 134.62 382.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 127 382.2699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Renesas_UQFN-16_2x2mm_P0.4mm"
-			(at 130.81 382.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 382.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 130.81 382.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "26c6df9b-aa0b-49dc-a51c-12a400608157")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 173.99 367.03 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff7ecf48-4774-46af-8933-471947fc1ec0")
-		(property "Reference" "#PWR022"
-			(at 180.34 367.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 177.8 367.0299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 367.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 367.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 173.99 367.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7cbdd84c-b2a6-4f85-be96-685f41211bde")
-		)
-		(instances
-			(project "uranus-fpga-board"
-				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(sheet
-		(at 595.63 359.41)
+		(at 608.33 359.41)
 		(size 55.88 39.37)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -232126,7 +227589,7 @@
 		)
 		(uuid "5601c772-9d70-4d6a-b42b-748160249e32")
 		(property "Sheetname" "GTX"
-			(at 595.63 358.6984 0)
+			(at 608.33 358.6984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -232137,7 +227600,7 @@
 			)
 		)
 		(property "Sheetfile" "fpga_gtx.kicad_sch"
-			(at 595.63 399.3646 0)
+			(at 608.33 399.3646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -232145,6 +227608,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "{FMC_GTXCLK}" input
+			(at 608.33 364.49 180)
+			(uuid "ab55cf76-525b-4c87-ba6d-e47572fa3958")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{FMC_GTXDB}" bidirectional
+			(at 608.33 369.57 180)
+			(uuid "4423f924-fd3c-4abd-bce5-dd360b6cf0b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -232202,7 +227685,7 @@
 		)
 	)
 	(sheet
-		(at 469.9 359.41)
+		(at 444.5 358.14)
 		(size 46.99 83.82)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -232218,7 +227701,7 @@
 		)
 		(uuid "e70af11b-d02c-4276-ba11-71fb729ac221")
 		(property "Sheetname" "IO Banks"
-			(at 469.9 358.6984 0)
+			(at 444.5 357.4284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -232229,7 +227712,7 @@
 			)
 		)
 		(property "Sheetfile" "fpga_io_banks.kicad_sch"
-			(at 469.9 443.8146 0)
+			(at 444.5 442.5446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -232240,7 +227723,7 @@
 			)
 		)
 		(pin "B13{IDC_DB}" bidirectional
-			(at 469.9 361.95 180)
+			(at 444.5 363.22 180)
 			(uuid "ef7ed2b5-0102-4e0d-b608-24cdc0400136")
 			(effects
 				(font
@@ -232250,7 +227733,7 @@
 			)
 		)
 		(pin "B14{IDC_DB}" bidirectional
-			(at 469.9 364.49 180)
+			(at 444.5 372.11 180)
 			(uuid "74abd379-00a4-46cd-bd60-e59982c9b58e")
 			(effects
 				(font
@@ -232260,7 +227743,7 @@
 			)
 		)
 		(pin "{VADJ_CTRL}" output
-			(at 469.9 368.3 180)
+			(at 444.5 383.54 180)
 			(uuid "16cddff9-7240-42a2-a3c8-80ba379a2dd0")
 			(effects
 				(font
@@ -232270,7 +227753,7 @@
 			)
 		)
 		(pin "H0{RAM_DB}" bidirectional
-			(at 469.9 374.65 180)
+			(at 444.5 392.43 180)
 			(uuid "4bd5e71f-6855-4f1b-b8ed-54de6691514e")
 			(effects
 				(font
@@ -232280,7 +227763,7 @@
 			)
 		)
 		(pin "H1{RAM_DB}" bidirectional
-			(at 469.9 379.73 180)
+			(at 444.5 397.51 180)
 			(uuid "73cf2b8d-9512-4db3-8886-825c690c4ac3")
 			(effects
 				(font
@@ -232290,7 +227773,7 @@
 			)
 		)
 		(pin "H2{RAM_DB}" bidirectional
-			(at 469.9 384.81 180)
+			(at 444.5 402.59 180)
 			(uuid "379b1ec5-3369-4f2a-b8b6-529468c9110f")
 			(effects
 				(font
@@ -232300,7 +227783,7 @@
 			)
 		)
 		(pin "H3{RAM_DB}" bidirectional
-			(at 469.9 389.89 180)
+			(at 444.5 407.67 180)
 			(uuid "e4172e91-1bf1-4cc5-a481-89c28503ef6d")
 			(effects
 				(font
@@ -232310,7 +227793,7 @@
 			)
 		)
 		(pin "L0{RAM_DB}" bidirectional
-			(at 469.9 372.11 180)
+			(at 444.5 389.89 180)
 			(uuid "ccbd127f-76f3-40a8-b0ba-652878a2f70f")
 			(effects
 				(font
@@ -232320,7 +227803,7 @@
 			)
 		)
 		(pin "L1{RAM_DB}" bidirectional
-			(at 469.9 377.19 180)
+			(at 444.5 394.97 180)
 			(uuid "682da558-a7ba-4542-aae2-a78224569f38")
 			(effects
 				(font
@@ -232330,7 +227813,7 @@
 			)
 		)
 		(pin "L2{RAM_DB}" bidirectional
-			(at 469.9 382.27 180)
+			(at 444.5 400.05 180)
 			(uuid "2a6d5b97-7c36-4bea-b26c-73a7423237e7")
 			(effects
 				(font
@@ -232340,7 +227823,7 @@
 			)
 		)
 		(pin "L3{RAM_DB}" bidirectional
-			(at 469.9 387.35 180)
+			(at 444.5 405.13 180)
 			(uuid "a79881a5-10af-4535-b431-146dfe055f98")
 			(effects
 				(font
@@ -232350,7 +227833,7 @@
 			)
 		)
 		(pin "{RAM_A}" output
-			(at 469.9 392.43 180)
+			(at 444.5 411.48 180)
 			(uuid "609656fc-0357-455c-b32a-adc1a3c7258f")
 			(effects
 				(font
@@ -232360,7 +227843,7 @@
 			)
 		)
 		(pin "{RAM_CLK}" output
-			(at 469.9 397.51 180)
+			(at 444.5 419.1 180)
 			(uuid "010b5b32-043b-4669-96cb-2f82cb4e5517")
 			(effects
 				(font
@@ -232370,8 +227853,98 @@
 			)
 		)
 		(pin "{RAM_CTRL}" output
-			(at 469.9 394.97 180)
+			(at 444.5 415.29 180)
 			(uuid "ebad3c48-756b-4a7b-99a2-da9259b71dc2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{FMC_CLK}" input
+			(at 444.5 426.72 180)
+			(uuid "cd5f6a71-382c-497d-95fb-6af3a913f96a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{FMC_DB_B16}" bidirectional
+			(at 444.5 429.26 180)
+			(uuid "0a5f6805-db4a-4ae8-aaf2-fdccb93e0b08")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{FMC_DB_B17}" bidirectional
+			(at 444.5 431.8 180)
+			(uuid "7d552f86-bde5-4e69-8cab-a146e4c29727")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{FMC_DB_B18}" bidirectional
+			(at 444.5 434.34 180)
+			(uuid "452f3758-3dfe-409c-8106-1a2228717813")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{FMC_I2C}" bidirectional
+			(at 444.5 439.42 180)
+			(uuid "f904f698-f0b9-49b5-98e2-0fab3539cb42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IDC_B13_CLK" output
+			(at 444.5 365.76 180)
+			(uuid "9d113de2-4e7b-4e85-b46a-437d5dff3fd9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IDC_B13_WRT" output
+			(at 444.5 368.3 180)
+			(uuid "53fd0b15-24b6-405e-9772-7bd5dbc8f471")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IDC_B14_CLK" output
+			(at 444.5 374.65 180)
+			(uuid "f94680ef-d8d4-49d3-9ae1-7bbacc4a03c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IDC_B14_WRT" output
+			(at 444.5 377.19 180)
+			(uuid "73026a04-f6d5-4580-a229-554f35b52213")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -232423,6 +227996,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "{FMC_JTAG}" bidirectional
+			(at 528.32 368.3 180)
+			(uuid "e20465b0-add0-422f-9626-8c75f4eda1f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

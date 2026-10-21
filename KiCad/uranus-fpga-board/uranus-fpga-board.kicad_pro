@@ -721,6 +721,107 @@
       "sort_field": "Reference"
     },
     "bus_aliases": {
+      "FMC_CLK": [
+        "CLK0_P",
+        "CLK0_N",
+        "CLK1_P",
+        "CLK1_N"
+      ],
+      "FMC_DB_B16": [
+        "LA00_CC_P",
+        "LA00_CC_N",
+        "LA01_P",
+        "LA01_N",
+        "LA02_P",
+        "LA02_N",
+        "LA03_P",
+        "LA03_N",
+        "LA04_P",
+        "LA04_N",
+        "LA05_P",
+        "LA05_N",
+        "LA06_P",
+        "LA06_N",
+        "LA07_P",
+        "LA07_N",
+        "LA08_P",
+        "LA08_N",
+        "LA11_P",
+        "LA11_N",
+        "LA12_P",
+        "LA12_N"
+      ],
+      "FMC_DB_B17": [
+        "LA09_P",
+        "LA09_N",
+        "LA10_P",
+        "LA10_N",
+        "LA13_P",
+        "LA13_N",
+        "LA14_P",
+        "LA14_N",
+        "LA15_P",
+        "LA15_N",
+        "LA16_P",
+        "LA16_N",
+        "LA18_CC_P",
+        "LA18_CC_N",
+        "LA19_P",
+        "LA19_N",
+        "LA20_P",
+        "LA20_N",
+        "LA21_P",
+        "LA21_N",
+        "LA22_P",
+        "LA22_N",
+        "LA25_P",
+        "LA25_N"
+      ],
+      "FMC_DB_B18": [
+        "LA17_CC_P",
+        "LA17_CC_N",
+        "LA23_P",
+        "LA23_N",
+        "LA24_P",
+        "LA24_N",
+        "LA26_P",
+        "LA26_N",
+        "LA27_P",
+        "LA27_N",
+        "LA28_P",
+        "LA28_N",
+        "LA29_P",
+        "LA29_N",
+        "LA30_P",
+        "LA30_N",
+        "LA31_P",
+        "LA31_N",
+        "LA32_P",
+        "LA32_N",
+        "LA33_P",
+        "LA33_N"
+      ],
+      "FMC_GTXCLK": [
+        "GTXCLK0_P",
+        "GTXCLK0_N"
+      ],
+      "FMC_GTXDB": [
+        "DP0_C2M_P",
+        "DP0_C2M_N",
+        "DP0_M2C_P",
+        "DP0_M2C_N"
+      ],
+      "FMC_I2C": [
+        "SCL",
+        "SDA"
+      ],
+      "FMC_JTAG": [
+        "TCK",
+        "TDI",
+        "TDO",
+        "TMS",
+        "~{TRST}"
+      ],
       "IDC_DB": [
         "D0",
         "D1",
@@ -817,7 +918,7 @@
         "uuid": "11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b"
       }
     ],
-    "used_designators": "#GND1,#PWR1-233,240Ω1,C1-99,J1-4,L1,Q1-4,R1-61,U1-22,Y1-2",
+    "used_designators": "#GND1,#PWR1-233,240Ω1,C1-128,J1-4,L1,Q1-4,R1-71,U1-28,Y1-2",
     "variants": []
   },
   "sheets": [
@@ -855,7 +956,7 @@
     ],
     [
       "46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd",
-      "FMC Power"
+      "Power Management"
     ],
     [
       "7b0890b0-33af-4ace-99bd-c62d0e3b3168",
@@ -924,6 +1025,14 @@
     [
       "95b890cf-6890-4543-b4d6-b2ecad9816b0",
       "Window Comparator VADJ"
+    ],
+    [
+      "943df020-d875-4b0f-9a11-8717c8c1b835",
+      "Power"
+    ],
+    [
+      "c8583c53-2ebc-41c4-a316-687d0c7c06dd",
+      "Decoupling"
     ]
   ],
   "text_variables": {},
