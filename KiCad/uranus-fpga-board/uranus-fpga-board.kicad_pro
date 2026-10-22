@@ -69,7 +69,13 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -144,7 +150,7 @@
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.1016,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -206,7 +212,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -233,7 +241,16 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.3
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -450,7 +467,7 @@
       "extra_units": "error",
       "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
-      "footprint_link_issues": "warning",
+      "footprint_link_issues": "error",
       "four_way_junction": "ignore",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
@@ -463,13 +480,13 @@
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
       "missing_unit": "warning",
-      "multiple_net_names": "warning",
+      "multiple_net_names": "error",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
       "pin_not_connected": "ignore",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "same_local_global_power": "warning",
@@ -477,7 +494,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -499,10 +516,10 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
+        "clearance": 0.1016,
+        "diff_pair_gap": 0.1016,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.1016,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -510,18 +527,267 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.1016,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.1016,
+        "diff_pair_gap": 0.1016,
+        "diff_pair_width": 0.1016,
+        "name": "LVDS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1016,
+        "tuning_profile": ""
       }
     ],
     "meta": {
       "version": 5
     },
     "net_colors": {},
-    "netclass_assignments": {},
+    "netclass_assignments": {
+      "/FMC/CLK0_N": [
+        "LVDS"
+      ],
+      "/FMC/CLK0_P": [
+        "LVDS"
+      ],
+      "/FMC/CLK1_N": [
+        "LVDS"
+      ],
+      "/FMC/CLK1_P": [
+        "LVDS"
+      ],
+      "/FMC/GTXCLK0_N": [
+        "LVDS"
+      ],
+      "/FMC/GTXCLK0_P": [
+        "LVDS"
+      ],
+      "/FMC/LA00_CC_N": [
+        "LVDS"
+      ],
+      "/FMC/LA00_CC_P": [
+        "LVDS"
+      ],
+      "/FMC/LA01_N": [
+        "LVDS"
+      ],
+      "/FMC/LA01_P": [
+        "LVDS"
+      ],
+      "/FMC/LA02_N": [
+        "LVDS"
+      ],
+      "/FMC/LA02_P": [
+        "LVDS"
+      ],
+      "/FMC/LA03_N": [
+        "LVDS"
+      ],
+      "/FMC/LA03_P": [
+        "LVDS"
+      ],
+      "/FMC/LA04_N": [
+        "LVDS"
+      ],
+      "/FMC/LA04_P": [
+        "LVDS"
+      ],
+      "/FMC/LA05_N": [
+        "LVDS"
+      ],
+      "/FMC/LA05_P": [
+        "LVDS"
+      ],
+      "/FMC/LA06_N": [
+        "LVDS"
+      ],
+      "/FMC/LA06_P": [
+        "LVDS"
+      ],
+      "/FMC/LA07_N": [
+        "LVDS"
+      ],
+      "/FMC/LA07_P": [
+        "LVDS"
+      ],
+      "/FMC/LA08_N": [
+        "LVDS"
+      ],
+      "/FMC/LA08_P": [
+        "LVDS"
+      ],
+      "/FMC/LA09_N": [
+        "LVDS"
+      ],
+      "/FMC/LA09_P": [
+        "LVDS"
+      ],
+      "/FMC/LA10_N": [
+        "LVDS"
+      ],
+      "/FMC/LA10_P": [
+        "LVDS"
+      ],
+      "/FMC/LA11_N": [
+        "LVDS"
+      ],
+      "/FMC/LA11_P": [
+        "LVDS"
+      ],
+      "/FMC/LA12_N": [
+        "LVDS"
+      ],
+      "/FMC/LA12_P": [
+        "LVDS"
+      ],
+      "/FMC/LA13_N": [
+        "LVDS"
+      ],
+      "/FMC/LA13_P": [
+        "LVDS"
+      ],
+      "/FMC/LA14_N": [
+        "LVDS"
+      ],
+      "/FMC/LA14_P": [
+        "LVDS"
+      ],
+      "/FMC/LA15_N": [
+        "LVDS"
+      ],
+      "/FMC/LA15_P": [
+        "LVDS"
+      ],
+      "/FMC/LA16_N": [
+        "LVDS"
+      ],
+      "/FMC/LA16_P": [
+        "LVDS"
+      ],
+      "/FMC/LA17_CC_N": [
+        "LVDS"
+      ],
+      "/FMC/LA17_CC_P": [
+        "LVDS"
+      ],
+      "/FMC/LA18_CC_N": [
+        "LVDS"
+      ],
+      "/FMC/LA18_CC_P": [
+        "LVDS"
+      ],
+      "/FMC/LA19_N": [
+        "LVDS"
+      ],
+      "/FMC/LA19_P": [
+        "LVDS"
+      ],
+      "/FMC/LA20_N": [
+        "LVDS"
+      ],
+      "/FMC/LA20_P": [
+        "LVDS"
+      ],
+      "/FMC/LA21_N": [
+        "LVDS"
+      ],
+      "/FMC/LA21_P": [
+        "LVDS"
+      ],
+      "/FMC/LA22_N": [
+        "LVDS"
+      ],
+      "/FMC/LA22_P": [
+        "LVDS"
+      ],
+      "/FMC/LA23_N": [
+        "LVDS"
+      ],
+      "/FMC/LA23_P": [
+        "LVDS"
+      ],
+      "/FMC/LA24_N": [
+        "LVDS"
+      ],
+      "/FMC/LA24_P": [
+        "LVDS"
+      ],
+      "/FMC/LA25_N": [
+        "LVDS"
+      ],
+      "/FMC/LA25_P": [
+        "LVDS"
+      ],
+      "/FMC/LA26_N": [
+        "LVDS"
+      ],
+      "/FMC/LA26_P": [
+        "LVDS"
+      ],
+      "/FMC/LA27_N": [
+        "LVDS"
+      ],
+      "/FMC/LA27_P": [
+        "LVDS"
+      ],
+      "/FMC/LA28_N": [
+        "LVDS"
+      ],
+      "/FMC/LA28_P": [
+        "LVDS"
+      ],
+      "/FMC/LA29_N": [
+        "LVDS"
+      ],
+      "/FMC/LA29_P": [
+        "LVDS"
+      ],
+      "/FMC/LA30_N": [
+        "LVDS"
+      ],
+      "/FMC/LA30_P": [
+        "LVDS"
+      ],
+      "/FMC/LA31_N": [
+        "LVDS"
+      ],
+      "/FMC/LA31_P": [
+        "LVDS"
+      ],
+      "/FMC/LA32_N": [
+        "LVDS"
+      ],
+      "/FMC/LA32_P": [
+        "LVDS"
+      ],
+      "/FMC/LA33_N": [
+        "LVDS"
+      ],
+      "/FMC/LA33_P": [
+        "LVDS"
+      ],
+      "/FMC/{FMC_CLK}": [
+        "LVDS"
+      ],
+      "/FMC/{FMC_DB_B16}": [
+        "LVDS"
+      ],
+      "/FMC/{FMC_DB_B17}": [
+        "LVDS"
+      ],
+      "/FMC/{FMC_DB_B18}": [
+        "LVDS"
+      ],
+      "/FMC/{FMC_GTXCLK}": [
+        "LVDS"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -721,6 +987,26 @@
       "sort_field": "Reference"
     },
     "bus_aliases": {
+      "DB": [
+        "D0",
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "D6",
+        "D7",
+        "D8",
+        "D9",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D14",
+        "D15",
+        "CLK",
+        "WRT"
+      ],
       "FMC_CLK": [
         "CLK0_P",
         "CLK0_N",
@@ -811,10 +1097,6 @@
         "DP0_M2C_P",
         "DP0_M2C_N"
       ],
-      "FMC_I2C": [
-        "SCL",
-        "SDA"
-      ],
       "FMC_JTAG": [
         "TCK",
         "TDI",
@@ -822,25 +1104,9 @@
         "TMS",
         "~{TRST}"
       ],
-      "IDC_DB": [
-        "D0",
-        "D1",
-        "D2",
-        "D3",
-        "D4",
-        "D5",
-        "D6",
-        "D7",
-        "D8",
-        "D9",
-        "D10",
-        "D11",
-        "D12",
-        "D13",
-        "D14",
-        "D15",
-        "CLK",
-        "WRT"
+      "I2C": [
+        "SCL",
+        "SDA"
       ],
       "RAM_A": [
         "A[0..12]",
@@ -864,6 +1130,12 @@
         "DQS_P",
         "DQS_N",
         "DM"
+      ],
+      "SPI": [
+        "CLK",
+        "MISO",
+        "MOSI",
+        "CS"
       ],
       "VADJ_CTRL": [
         "SEL_A[0..2]",
@@ -931,36 +1203,12 @@
       "FPGA"
     ],
     [
-      "2db62921-1f4c-4476-acf4-00c054324714",
-      "RAM"
-    ],
-    [
-      "2757140f-486d-491c-90f5-6e7ccbeb0281",
-      "FMC"
-    ],
-    [
-      "251fb5d8-a4e7-4d73-9f18-2d9cd26a039c",
-      "IDC"
-    ],
-    [
-      "7d64c5c4-ac4a-4d73-b01d-5f6ce408deba",
-      "Misc Peripherals"
-    ],
-    [
-      "c24033dc-f369-41dd-8f49-05bd1c6f280a",
-      "Power"
-    ],
-    [
-      "d638e65d-8388-457a-9d43-44458e2c9f35",
-      "VADJ"
-    ],
-    [
-      "46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd",
-      "Power Management"
-    ],
-    [
       "7b0890b0-33af-4ace-99bd-c62d0e3b3168",
       "Power"
+    ],
+    [
+      "c8583c53-2ebc-41c4-a316-687d0c7c06dd",
+      "Decoupling"
     ],
     [
       "5601c772-9d70-4d6a-b42b-748160249e32",
@@ -984,15 +1232,19 @@
     ],
     [
       "df160b42-b095-480e-a002-f23f31e7d2a8",
-      "15"
+      "14"
     ],
     [
       "20a1cd87-7584-4a0d-9865-d63069f231d1",
-      "13 14"
+      "13 15"
     ],
     [
       "4cb2768f-bfdc-42c9-a077-fdf8ea6fb703",
       "12"
+    ],
+    [
+      "2db62921-1f4c-4476-acf4-00c054324714",
+      "RAM"
     ],
     [
       "5db95efe-4ce8-4047-90c4-46ab07b50908",
@@ -1009,6 +1261,14 @@
     [
       "f15fbad7-1fe6-4681-a07a-8b075fea57d6",
       "Chip3"
+    ],
+    [
+      "2757140f-486d-491c-90f5-6e7ccbeb0281",
+      "FMC"
+    ],
+    [
+      "46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd",
+      "Power Management"
     ],
     [
       "6841b136-585d-4620-8c7f-346e962849dc",
@@ -1031,8 +1291,20 @@
       "Power"
     ],
     [
-      "c8583c53-2ebc-41c4-a316-687d0c7c06dd",
-      "Decoupling"
+      "251fb5d8-a4e7-4d73-9f18-2d9cd26a039c",
+      "IDC"
+    ],
+    [
+      "7d64c5c4-ac4a-4d73-b01d-5f6ce408deba",
+      "Misc Peripherals"
+    ],
+    [
+      "c24033dc-f369-41dd-8f49-05bd1c6f280a",
+      "Power"
+    ],
+    [
+      "d638e65d-8388-457a-9d43-44458e2c9f35",
+      "VADJ"
     ]
   ],
   "text_variables": {},

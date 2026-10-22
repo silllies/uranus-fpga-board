@@ -17071,6 +17071,16 @@
 		)
 		(uuid "c21a4041-bd02-4fe2-b15b-5ba92a6182e6")
 	)
+	(bus
+		(pts
+			(xy 255.27 35.56) (xy 260.35 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c87b1ca5-ea68-4213-9bbc-8e7d120e183d")
+	)
 	(wire
 		(pts
 			(xy 241.3 60.96) (xy 252.73 60.96)
@@ -17210,16 +17220,6 @@
 			(type default)
 		)
 		(uuid "de38e46c-05f2-4393-865f-f067c26f3e89")
-	)
-	(bus
-		(pts
-			(xy 260.35 35.56) (xy 255.27 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e182831f-069b-492e-a5d0-725527c529a2")
 	)
 	(wire
 		(pts
@@ -18211,7 +18211,7 @@
 		)
 		(uuid "f8355640-4c39-4593-947d-b3ddad9f00d4")
 	)
-	(hierarchical_label "{FMC_I2C}"
+	(hierarchical_label "{I2C}"
 		(shape bidirectional)
 		(at 27.94 104.14 180)
 		(effects
@@ -18223,7 +18223,7 @@
 		(uuid "10bb817b-e08d-4960-9952-f6f6cdacff5d")
 	)
 	(hierarchical_label "{FMC_DB_B16}"
-		(shape bidirectional)
+		(shape output)
 		(at 182.88 46.99 180)
 		(effects
 			(font
@@ -18256,7 +18256,7 @@
 		(uuid "78fc45a9-5c43-4284-82f7-ec1e72419eda")
 	)
 	(hierarchical_label "{FMC_DB_B18}"
-		(shape bidirectional)
+		(shape output)
 		(at 260.35 99.06 0)
 		(effects
 			(font
@@ -18267,7 +18267,7 @@
 		(uuid "7d0dfabf-acd3-476c-884b-44fdc24a5495")
 	)
 	(hierarchical_label "{FMC_DB_B17}"
-		(shape bidirectional)
+		(shape output)
 		(at 260.35 35.56 0)
 		(effects
 			(font
@@ -18278,7 +18278,7 @@
 		(uuid "828b708b-306e-4480-8a3e-03a43ab0a4a4")
 	)
 	(hierarchical_label "{FMC_JTAG}"
-		(shape bidirectional)
+		(shape input)
 		(at 27.94 77.47 180)
 		(effects
 			(font
@@ -18310,6 +18310,184 @@
 		)
 		(uuid "d3aaf234-546c-4602-a791-266bb3746af3")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 104.14 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d82ed66-2be8-40eb-80a8-9e0de5d8da57")
+		(property "Netclass" "LVDS"
+			(at 105.3465 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -153.67 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 189.23 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e76b6d3-1c79-4ef6-bc81-8ec6a8a27b97")
+		(property "Netclass" "LVDS"
+			(at 188.0235 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 447.04 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 257.81 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "92c796ae-fd60-449a-a651-a69ffef0f677")
+		(property "Netclass" "LVDS"
+			(at 259.0165 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 0 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 257.81 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a81f41d5-c4f4-4cab-b710-1efcd719911b")
+		(property "Netclass" "LVDS"
+			(at 259.0165 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 186.69 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3623440-d0d1-4bf7-8c0d-3094a83d98a5")
+		(property "Netclass" "LVDS"
+			(at 185.4835 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 444.5 11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:+3V3")
 		(at 118.11 73.66 0)
@@ -18321,7 +18499,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0b1c6500-3d34-459e-a95e-3e85f2edda4f")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR084"
 			(at 118.11 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -18381,7 +18559,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281"
-					(reference "#PWR079")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -18398,7 +18576,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "284e6c7c-0f51-4170-8713-d8a0afceb184")
-		(property "Reference" "R2"
+		(property "Reference" "R13"
 			(at 94.742 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18484,7 +18662,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281"
-					(reference "R2")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -18501,7 +18679,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "47907b4c-6686-48f7-a60a-4c63e47f6f01")
-		(property "Reference" "R1"
+		(property "Reference" "R14"
 			(at 116.586 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18587,7 +18765,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281"
-					(reference "R1")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -20049,7 +20227,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "722483ae-1bfc-4ced-8793-ca9c32499016")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR082"
 			(at 45.72 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -20109,7 +20287,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281"
-					(reference "#PWR096")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -20126,7 +20304,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a8d60b3b-eef3-49ef-870b-8d12150dfcc3")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR083"
 			(at 99.06 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -20186,7 +20364,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281"
-					(reference "#PWR0109")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -21707,7 +21885,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281"
-					(page "9")
+					(page "19")
 				)
 			)
 		)
@@ -21753,7 +21931,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281"
-					(page "27")
+					(page "24")
 				)
 			)
 		)

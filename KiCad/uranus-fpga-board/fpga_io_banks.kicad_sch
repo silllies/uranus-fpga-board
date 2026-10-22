@@ -7,6 +7,16 @@
 	(lib_symbols)
 	(bus
 		(pts
+			(xy 210.82 63.5) (xy 213.36 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "082cdf94-2d07-41ea-8707-e36236616de3")
+	)
+	(bus
+		(pts
 			(xy 60.96 120.65) (xy 63.5 120.65)
 		)
 		(stroke
@@ -14,16 +24,6 @@
 			(type default)
 		)
 		(uuid "0c79adad-6110-4b25-a9b9-a285d17162c2")
-	)
-	(bus
-		(pts
-			(xy 140.97 76.2) (xy 143.51 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22b94c3a-69ae-42c3-a9d4-b0d2f34bbb85")
 	)
 	(wire
 		(pts
@@ -235,7 +235,7 @@
 		)
 		(uuid "fbdc950a-55fd-42f2-8219-0dc4dabbb7c0")
 	)
-	(hierarchical_label "B13{IDC_DB}"
+	(hierarchical_label "J2_B13{DB}"
 		(shape bidirectional)
 		(at 60.96 111.76 180)
 		(effects
@@ -378,16 +378,16 @@
 		)
 		(uuid "a14c5282-6110-47cb-a17e-ea632b45e46f")
 	)
-	(hierarchical_label "{FMC_I2C}"
+	(hierarchical_label "{I2C}"
 		(shape bidirectional)
-		(at 140.97 76.2 180)
+		(at 210.82 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "af55096a-453d-4cb1-b97d-6cfab6699965")
+		(uuid "a2c2a834-0a2f-4d7e-82ab-2d97269ac5af")
 	)
 	(hierarchical_label "IDC_B13_CLK"
 		(shape output)
@@ -455,7 +455,7 @@
 		)
 		(uuid "d45ef723-2666-4adb-af9e-a780ace1c5f3")
 	)
-	(hierarchical_label "B14{IDC_DB}"
+	(hierarchical_label "J2_B15{DB}"
 		(shape bidirectional)
 		(at 60.96 120.65 180)
 		(effects
@@ -504,7 +504,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "20a1cd87-7584-4a0d-9865-d63069f231d1")
-		(property "Sheetname" "13 14"
+		(property "Sheetname" "13 15"
 			(at 63.5 108.5084 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -515,7 +515,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "fpga_banks_13_14.kicad_sch"
+		(property "Sheetfile" "fpga_banks_13_15.kicad_sch"
 			(at 63.5 136.4746 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -526,7 +526,7 @@
 				(justify left top)
 			)
 		)
-		(pin "B13{IDC_DB}" bidirectional
+		(pin "J2_B13{DB}" bidirectional
 			(at 63.5 111.76 180)
 			(uuid "677898ed-dfd1-4070-b292-36d0d40953f5")
 			(effects
@@ -536,7 +536,7 @@
 				(justify left)
 			)
 		)
-		(pin "B14{IDC_DB}" bidirectional
+		(pin "J2_B15{DB}" bidirectional
 			(at 63.5 120.65 180)
 			(uuid "b6a67e93-6bfe-4cb0-a1cd-17a66e4a8a7f")
 			(effects
@@ -589,7 +589,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8/e70af11b-d02c-4276-ba11-71fb729ac221"
-					(page "17")
+					(page "11")
 				)
 			)
 		)
@@ -635,7 +635,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8/e70af11b-d02c-4276-ba11-71fb729ac221"
-					(page "18")
+					(page "12")
 				)
 			)
 		)
@@ -791,7 +791,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8/e70af11b-d02c-4276-ba11-71fb729ac221"
-					(page "14")
+					(page "8")
 				)
 			)
 		)
@@ -874,20 +874,10 @@
 				(justify left)
 			)
 		)
-		(pin "{FMC_I2C}" bidirectional
-			(at 143.51 76.2 180)
-			(uuid "dc153011-165d-4d18-9c72-8042fb3cde16")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8/e70af11b-d02c-4276-ba11-71fb729ac221"
-					(page "15")
+					(page "9")
 				)
 			)
 		)
@@ -908,7 +898,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "df160b42-b095-480e-a002-f23f31e7d2a8")
-		(property "Sheetname" "15"
+		(property "Sheetname" "14"
 			(at 213.36 55.1684 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -919,7 +909,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "fpga_bank_15.kicad_sch"
+		(property "Sheetfile" "fpga_bank_14.kicad_sch"
 			(at 213.36 83.1346 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -940,10 +930,20 @@
 				(justify left)
 			)
 		)
+		(pin "{I2C}" bidirectional
+			(at 213.36 63.5 180)
+			(uuid "7e9e3d7a-5083-4b9a-a60c-34dab8821600")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8/e70af11b-d02c-4276-ba11-71fb729ac221"
-					(page "16")
+					(page "10")
 				)
 			)
 		)

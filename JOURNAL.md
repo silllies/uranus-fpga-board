@@ -3,7 +3,7 @@ title: "uranus-fpga-board"
 github: "https://github.com/silllies/uranus-fpga-board"
 description: "Found out about FPGAs and thought they were very cool—decided to try making a board for a nice one. Calling it Uranus because Uranus is a goated planet (YOOR-uh-nús)"
 created_at: "2026-10-04"
-total_time: "78h 10m"
+total_time: "83h 0m"
 ---
 
 # October 4, 2026: FPGAs are Actually Pretty Hype
@@ -368,3 +368,37 @@ Nevermind, I am too eepy
 Oh gosh, I haven't even gotten out of the schematic phase and I am at 78 hours.
 
 **Total time spent: 7h 40m**
+
+___
+
+# October 22, 2026: I finally did it
+
+I just looked over the fabricate docs again and noticed that the ENIG surface finish is only allowed on a case-by-base basis. For my board size, only OSP and ENIG are options, and OSP is only $10 cheaper. I will see what will be cheaper: using PCBA for everything with OSP, or using PCBA only for required components (large BGA) with ENIG. I'm still not sure about OSP, as I may want to change some things after production. Getting parts from JLCPCB is cheaper than LCSC, as they often have a lower minimum order quantity and they have a slight price decrease. I don't have to worry about LCSC shipping costs if I choose to assemble some components myself, as I can tie the order to my JLCPCB order.
+
+I also learned of something called OpenEMS, which simulates the flow of electricity. I can then maybe use something like Qucs-S to then simulate the performance of everything. KiCad already has built in ngspice, but Qucs-S has some things for my LVDS lines that may be beneficial.
+
+Anyways, today I hope to
+
+- Do the things I wanted to get done last night
+
+Finishing those three would still leave me with an FMC that is not fully connected, but I want to save the JTAG pins for after I finish my JTAG converter and actually understand what's going on.
+
+Instead of doing that, I began researching how net classes work and also poorly drew an idea of what my pcb layout might look like.
+
+![poorly drawn layout image](images/oct22/bad_pcb_layout_drawing.jpg)
+
+I accidentally drew the JTAG stuffs connecting to bank 12, when it is actually connecting to pins that are sort of between bank 18 and the GTX banks. That was fixed, but I can't erase the ink. Basically, you can see the FMC lower half being broken into thirds for the 3 banks it will connect to, and the upper half being broken into smaller thirds, since there are less LA pins there. GTX pins are on the lower half right side (FMC will be on the bottom of the board), so I have them circling around to connect to bank 118 (not 18). I have no idea where the I2C pins will go yet and the JTAG pins will connect somehow to those JTAG pins by banks 18 and 118. bank 15 is being used as the control bank for the other things, so it doesn't rely on VADJ being configured (it will handle the configuring). I accidentally drew the flash connecting to bank 15, when it should be 14. Maybe I will move the control stuff to 14, too. The IDC is shown broken into its halves and split across banks 14 and 13. The undecided connector, which I labeled as "prob USB-C" is very poorly shown connecting to bank 12 by going under the core and some unused GTX banks. The RAM chips are shown connecting to banks 32, 33, and 34. 32 and 34 handle the main data lines, two chips each. 33 is the control bank.
+
+Yep, I've decided to use bank 14 as the main external config bank. Internal config is bank 0. I don't think there is much use in deciding the pins for I2C right now, as there are far more miscellaneous pins to be decided for bank 14, so I will put I2C labels in the sheet, but leave it like that for now.
+
+Guess what? 2 (2!!) NEW CONNECTORS!!!!!! RAAAHHHHHHHH! or maybe 3, idk. I realized it would be far more efficient to use a GTX bank for a USB-C port (using an IO bank would require like 80% of its pins), so that leaves me with a mostly spare IO bank. I think I will use another, smaller this time, IDC connector.
+
+![schematic of the new IDC](images/oct22/newIDC.png)
+
+Oh dear, now I'm getting worried about this BGA. I messed around in the PCB editor some more and realized that I would need to pay a lot for buried vias, so my LVDS pairs need to go in between each via. JLCPCB's minimum via size is a .4 mm diameter, and not much can fit between those. Actually, I might be able to increase the size by moving the vias if there is room. I will have to see. I don't want 10 layer or HDI :,<. But yeah, I also realized I had a 1.27mm pitch connector for my 2x25 IDC accidentally, so I switched it to 2.54mm and it nearly takes up the whole side of the board :3
+
+![very rough and bad layout on the PCB](images/oct22/very_rough_layout.png)
+
+Oh yeah and clock pins were connected. I think a USB-C port for a GTX bank would be good, and I could add a USB-A port if I feel like it.
+
+**Total time spent: 4h 50m**

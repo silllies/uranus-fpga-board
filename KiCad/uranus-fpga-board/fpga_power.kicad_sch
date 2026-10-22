@@ -83168,12 +83168,6 @@
 		(uuid "23469850-6b64-471b-a885-4d5378042596")
 	)
 	(junction
-		(at 110.49 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24013cca-5a9b-4b32-b2bf-9532c9ff224c")
-	)
-	(junction
 		(at 209.55 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -84979,7 +84973,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 26.67) (xy 110.49 29.21)
+			(xy 110.49 26.67) (xy 110.49 27.94)
 		)
 		(stroke
 			(width 0)
@@ -87179,7 +87173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21cfb476-c488-4b6f-8f31-b76123e12b23")
-		(property "Reference" "U12"
+		(property "Reference" "U1"
 			(at 57.15 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -87201,7 +87195,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_BGA:Xilinx_FFG900_FFG901"
 			(at 57.15 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -89936,7 +89930,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8/7b0890b0-33af-4ace-99bd-c62d0e3b3168"
-					(reference "U12")
+					(reference "U1")
 					(unit 14)
 				)
 			)
@@ -89954,7 +89948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d81ad20-529d-4316-95b7-94ba7ac04c6a")
-		(property "Reference" "#PWR0157"
+		(property "Reference" "#PWR013"
 			(at 88.9 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -90014,7 +90008,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8/7b0890b0-33af-4ace-99bd-c62d0e3b3168"
-					(reference "#PWR0157")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -90032,7 +90026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3dcfe84e-b920-4a53-9383-5c45af429305")
-		(property "Reference" "#PWR0155"
+		(property "Reference" "#PWR011"
 			(at 25.4 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -90092,7 +90086,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8/7b0890b0-33af-4ace-99bd-c62d0e3b3168"
-					(reference "#PWR0155")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -90110,7 +90104,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e499c11-9bb0-4a71-8ffa-584cbbc98555")
-		(property "Reference" "#PWR0154"
+		(property "Reference" "#PWR010"
 			(at 25.4 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -90170,7 +90164,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8/7b0890b0-33af-4ace-99bd-c62d0e3b3168"
-					(reference "#PWR0154")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -90188,7 +90182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b58e800-fdde-403c-9459-b3b613619f1d")
-		(property "Reference" "#PWR0159"
+		(property "Reference" "#PWR015"
 			(at 105.41 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -90248,7 +90242,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8/7b0890b0-33af-4ace-99bd-c62d0e3b3168"
-					(reference "#PWR0159")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -90266,7 +90260,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c1973eb-e52e-4ac3-b5e2-5e8f58a898fb")
-		(property "Reference" "#PWR0160"
+		(property "Reference" "#PWR017"
 			(at 105.41 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -90326,7 +90320,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8/7b0890b0-33af-4ace-99bd-c62d0e3b3168"
-					(reference "#PWR0160")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -90345,7 +90339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54c3504c-156b-4d24-aefd-4375842ef46c")
-		(property "Reference" "U12"
+		(property "Reference" "U1"
 			(at 227.33 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -90367,7 +90361,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_BGA:Xilinx_FFG900_FFG901"
 			(at 227.33 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -93102,7 +93096,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8/7b0890b0-33af-4ace-99bd-c62d0e3b3168"
-					(reference "U12")
+					(reference "U1")
 					(unit 17)
 				)
 			)
@@ -93120,7 +93114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55a44eb4-c0de-4154-a3db-043a0d0b2f4e")
-		(property "Reference" "#PWR0162"
+		(property "Reference" "#PWR019"
 			(at 105.41 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -93180,7 +93174,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8/7b0890b0-33af-4ace-99bd-c62d0e3b3168"
-					(reference "#PWR0162")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -93198,7 +93192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66d967f9-cf6a-425c-94ee-599e7cee2470")
-		(property "Reference" "#PWR0163"
+		(property "Reference" "#PWR020"
 			(at 166.37 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -93258,7 +93252,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8/7b0890b0-33af-4ace-99bd-c62d0e3b3168"
-					(reference "#PWR0163")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -93277,7 +93271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b824cd9-8c00-4274-a661-0bbe57da0aaa")
-		(property "Reference" "U12"
+		(property "Reference" "U1"
 			(at 135.89 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -93299,7 +93293,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_BGA:Xilinx_FFG900_FFG901"
 			(at 135.89 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -96034,7 +96028,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8/7b0890b0-33af-4ace-99bd-c62d0e3b3168"
-					(reference "U12")
+					(reference "U1")
 					(unit 15)
 				)
 			)
@@ -96053,7 +96047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98b021ea-8eaf-46dc-9f34-9ccd73f66b0e")
-		(property "Reference" "U12"
+		(property "Reference" "U1"
 			(at 135.89 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -96075,7 +96069,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_BGA:Xilinx_FFG900_FFG901"
 			(at 135.89 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -98810,7 +98804,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8/7b0890b0-33af-4ace-99bd-c62d0e3b3168"
-					(reference "U12")
+					(reference "U1")
 					(unit 16)
 				)
 			)
@@ -98828,7 +98822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa3170a3-4ede-441c-9072-49790f56be5d")
-		(property "Reference" "#PWR0158"
+		(property "Reference" "#PWR014"
 			(at 88.9 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -98888,7 +98882,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8/7b0890b0-33af-4ace-99bd-c62d0e3b3168"
-					(reference "#PWR0158")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -98906,7 +98900,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5464ff1-5d18-4210-9271-8aa37bb3a60c")
-		(property "Reference" "#PWR0161"
+		(property "Reference" "#PWR018"
 			(at 105.41 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -98966,7 +98960,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8/7b0890b0-33af-4ace-99bd-c62d0e3b3168"
-					(reference "#PWR0161")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -98984,7 +98978,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d273b2fa-78ab-4ef8-a385-3e88580bf1c6")
-		(property "Reference" "#PWR0213"
+		(property "Reference" "#PWR016"
 			(at 105.41 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -99044,7 +99038,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8/7b0890b0-33af-4ace-99bd-c62d0e3b3168"
-					(reference "#PWR0213")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -99063,7 +99057,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4e048c1-6e95-4217-a0a5-56f8f9e765a4")
-		(property "Reference" "U12"
+		(property "Reference" "U1"
 			(at 265.43 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -99085,7 +99079,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_BGA:Xilinx_FFG900_FFG901"
 			(at 265.43 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -101820,7 +101814,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8/7b0890b0-33af-4ace-99bd-c62d0e3b3168"
-					(reference "U12")
+					(reference "U1")
 					(unit 18)
 				)
 			)
@@ -101838,7 +101832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9d13951-c92b-48aa-8ac5-91bd5c330704")
-		(property "Reference" "#PWR0156"
+		(property "Reference" "#PWR012"
 			(at 25.4 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -101898,7 +101892,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8/7b0890b0-33af-4ace-99bd-c62d0e3b3168"
-					(reference "#PWR0156")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -101916,7 +101910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f03cc7ca-f681-40d2-bb76-12afee429774")
-		(property "Reference" "#PWR0164"
+		(property "Reference" "#PWR021"
 			(at 246.38 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -101976,7 +101970,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8/7b0890b0-33af-4ace-99bd-c62d0e3b3168"
-					(reference "#PWR0164")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -102023,7 +102017,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8/7b0890b0-33af-4ace-99bd-c62d0e3b3168"
-					(page "28")
+					(page "4")
 				)
 			)
 		)

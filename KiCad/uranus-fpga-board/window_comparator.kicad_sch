@@ -952,7 +952,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ebd84cc-9ccf-481b-9964-0a0796542428")
-		(property "Reference" "U17"
+		(property "Reference" "U10"
 			(at 100.33 74.422 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1029,19 +1029,19 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/6841b136-585d-4620-8c7f-346e962849dc"
-					(reference "U17")
+					(reference "U10")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/95b890cf-6890-4543-b4d6-b2ecad9816b0"
-					(reference "U20")
+					(reference "U13")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/bd59cc30-5e71-43c4-b6d6-9366f59ed92b"
-					(reference "U18")
+					(reference "U11")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/fb739f47-d8c4-40b2-98a1-6db3d4b23523"
-					(reference "U19")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -1058,7 +1058,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "70475a79-c347-48ab-88ed-36063c89823f")
-		(property "Reference" "#PWR0199"
+		(property "Reference" "#PWR0107"
 			(at 97.79 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -1119,19 +1119,19 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/6841b136-585d-4620-8c7f-346e962849dc"
-					(reference "#PWR0199")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/95b890cf-6890-4543-b4d6-b2ecad9816b0"
-					(reference "#PWR0208")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/bd59cc30-5e71-43c4-b6d6-9366f59ed92b"
-					(reference "#PWR0202")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/fb739f47-d8c4-40b2-98a1-6db3d4b23523"
-					(reference "#PWR0205")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -1148,7 +1148,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8ce7559c-63d7-4ff2-8cdc-72f98e661d56")
-		(property "Reference" "#PWR0200"
+		(property "Reference" "#PWR0108"
 			(at 97.79 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -1208,19 +1208,19 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/6841b136-585d-4620-8c7f-346e962849dc"
-					(reference "#PWR0200")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/95b890cf-6890-4543-b4d6-b2ecad9816b0"
-					(reference "#PWR0209")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/bd59cc30-5e71-43c4-b6d6-9366f59ed92b"
-					(reference "#PWR0203")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/fb739f47-d8c4-40b2-98a1-6db3d4b23523"
-					(reference "#PWR0206")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -1238,7 +1238,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "95340a51-0f9c-4120-bc21-c57c76af35aa")
-		(property "Reference" "R42"
+		(property "Reference" "R31"
 			(at 83.82 71.374 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1324,19 +1324,19 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/6841b136-585d-4620-8c7f-346e962849dc"
-					(reference "R42")
+					(reference "R31")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/95b890cf-6890-4543-b4d6-b2ecad9816b0"
-					(reference "R48")
+					(reference "R37")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/bd59cc30-5e71-43c4-b6d6-9366f59ed92b"
-					(reference "R44")
+					(reference "R33")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/fb739f47-d8c4-40b2-98a1-6db3d4b23523"
-					(reference "R46")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -1355,7 +1355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cac4ac6c-22a9-4945-92d2-991c84cd5d67")
-		(property "Reference" "#PWR0201"
+		(property "Reference" "#PWR0109"
 			(at 119.38 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -1415,19 +1415,19 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/6841b136-585d-4620-8c7f-346e962849dc"
-					(reference "#PWR0201")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/95b890cf-6890-4543-b4d6-b2ecad9816b0"
-					(reference "#PWR0210")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/bd59cc30-5e71-43c4-b6d6-9366f59ed92b"
-					(reference "#PWR0204")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/fb739f47-d8c4-40b2-98a1-6db3d4b23523"
-					(reference "#PWR0207")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -1445,7 +1445,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d7f6575c-8573-44d2-801a-34c8fea59afa")
-		(property "Reference" "C89"
+		(property "Reference" "C81"
 			(at 121.666 62.484 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1509,19 +1509,19 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/6841b136-585d-4620-8c7f-346e962849dc"
-					(reference "C89")
+					(reference "C81")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/95b890cf-6890-4543-b4d6-b2ecad9816b0"
-					(reference "C92")
+					(reference "C84")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/bd59cc30-5e71-43c4-b6d6-9366f59ed92b"
-					(reference "C90")
+					(reference "C82")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/fb739f47-d8c4-40b2-98a1-6db3d4b23523"
-					(reference "C91")
+					(reference "C83")
 					(unit 1)
 				)
 			)
@@ -1539,7 +1539,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f64229b8-d890-477d-9aeb-5a0306d48188")
-		(property "Reference" "R41"
+		(property "Reference" "R30"
 			(at 83.82 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1625,19 +1625,19 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/6841b136-585d-4620-8c7f-346e962849dc"
-					(reference "R41")
+					(reference "R30")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/95b890cf-6890-4543-b4d6-b2ecad9816b0"
-					(reference "R47")
+					(reference "R36")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/bd59cc30-5e71-43c4-b6d6-9366f59ed92b"
-					(reference "R43")
+					(reference "R32")
 					(unit 1)
 				)
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/2757140f-486d-491c-90f5-6e7ccbeb0281/46a1c7eb-653d-4ea1-80bd-6d1b9830d8cd/fb739f47-d8c4-40b2-98a1-6db3d4b23523"
-					(reference "R45")
+					(reference "R34")
 					(unit 1)
 				)
 			)

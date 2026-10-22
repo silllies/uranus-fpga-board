@@ -9,7 +9,7 @@
 	)
 	(lib_symbols)
 	(junction
-		(at 172.72 125.73)
+		(at 172.72 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "561e556a-b142-4a02-98a6-d13b9235b744")
@@ -76,7 +76,7 @@
 	)
 	(bus
 		(pts
-			(xy 172.72 125.73) (xy 170.18 125.73)
+			(xy 172.72 156.21) (xy 170.18 156.21)
 		)
 		(stroke
 			(width 0)
@@ -96,7 +96,7 @@
 	)
 	(bus
 		(pts
-			(xy 172.72 125.73) (xy 186.69 125.73)
+			(xy 172.72 156.21) (xy 186.69 156.21)
 		)
 		(stroke
 			(width 0)
@@ -176,7 +176,7 @@
 	)
 	(bus
 		(pts
-			(xy 172.72 85.09) (xy 172.72 125.73)
+			(xy 172.72 85.09) (xy 172.72 156.21)
 		)
 		(stroke
 			(width 0)
@@ -320,14 +320,13 @@
 		)
 		(uuid "251fb5d8-a4e7-4d73-9f18-2d9cd26a039c")
 		(property "Sheetname" "IDC"
-			(at 52.324 57.15 0)
+			(at 57.15 56.642 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "idc.kicad_sch"
@@ -341,7 +340,7 @@
 				(justify left top)
 			)
 		)
-		(pin "B13{IDC_DB}" bidirectional
+		(pin "J2_B13{DB}" bidirectional
 			(at 88.9 27.94 0)
 			(uuid "a95fec95-ea71-4405-a9a2-8ed4d666581a")
 			(effects
@@ -351,7 +350,7 @@
 				(justify right)
 			)
 		)
-		(pin "B14{IDC_DB}" bidirectional
+		(pin "J2_B15{DB}" bidirectional
 			(at 88.9 38.1 0)
 			(uuid "426290ec-b148-4062-8eb0-332ca0d9c271")
 			(effects
@@ -404,7 +403,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b"
-					(page "5")
+					(page "25")
 				)
 			)
 		)
@@ -425,14 +424,13 @@
 		)
 		(uuid "2757140f-486d-491c-90f5-6e7ccbeb0281")
 		(property "Sheetname" "FMC"
-			(at 134.874 154.94 0)
+			(at 138.43 152.908 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "fmc.kicad_sch"
@@ -447,7 +445,7 @@
 			)
 		)
 		(pin "{VADJ_CTRL}" input
-			(at 170.18 125.73 0)
+			(at 170.18 156.21 0)
 			(uuid "28f3bd11-dbd8-47ed-8cfd-97975256a498")
 			(effects
 				(font
@@ -456,7 +454,7 @@
 				(justify right)
 			)
 		)
-		(pin "{FMC_DB_B16}" bidirectional
+		(pin "{FMC_DB_B16}" output
 			(at 125.73 120.65 90)
 			(uuid "998f250b-ba01-4d92-8186-4cb952ed4aef")
 			(effects
@@ -466,7 +464,7 @@
 				(justify right)
 			)
 		)
-		(pin "{FMC_DB_B17}" bidirectional
+		(pin "{FMC_DB_B17}" output
 			(at 128.27 120.65 90)
 			(uuid "bc90d0ac-06f8-4799-aa9d-7d412f7c76b7")
 			(effects
@@ -476,7 +474,7 @@
 				(justify right)
 			)
 		)
-		(pin "{FMC_DB_B18}" bidirectional
+		(pin "{FMC_DB_B18}" output
 			(at 130.81 120.65 90)
 			(uuid "a11a8150-8c33-4e59-a925-132335e9c392")
 			(effects
@@ -506,7 +504,7 @@
 				(justify right)
 			)
 		)
-		(pin "{FMC_I2C}" bidirectional
+		(pin "{I2C}" bidirectional
 			(at 140.97 120.65 90)
 			(uuid "5df1c4a4-5983-4e22-95ca-77df8f88dbb9")
 			(effects
@@ -516,7 +514,7 @@
 				(justify right)
 			)
 		)
-		(pin "{FMC_JTAG}" bidirectional
+		(pin "{FMC_JTAG}" input
 			(at 144.78 120.65 90)
 			(uuid "f751b62e-627d-4419-97a0-1ec5aa25d8cb")
 			(effects
@@ -539,7 +537,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b"
-					(page "4")
+					(page "18")
 				)
 			)
 		)
@@ -560,14 +558,13 @@
 		)
 		(uuid "2db62921-1f4c-4476-acf4-00c054324714")
 		(property "Sheetname" "RAM"
-			(at 213.868 60.198 0)
+			(at 215.9 57.912 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "ram.kicad_sch"
@@ -694,14 +691,14 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b"
-					(page "3")
+					(page "13")
 				)
 			)
 		)
 	)
 	(sheet
 		(at 30.48 121.92)
-		(size 54.61 50.8)
+		(size 53.34 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -715,14 +712,13 @@
 		)
 		(uuid "7d64c5c4-ac4a-4d73-b01d-5f6ce408deba")
 		(property "Sheetname" "Misc Peripherals"
-			(at 48.006 147.828 0)
+			(at 57.15 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "misc.kicad_sch"
@@ -739,7 +735,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b"
-					(page "6")
+					(page "26")
 				)
 			)
 		)
@@ -760,14 +756,13 @@
 		)
 		(uuid "ae4670d8-3f7e-4e25-83c4-e414aeb132b8")
 		(property "Sheetname" "FPGA"
-			(at 132.08 56.642 0)
+			(at 137.16 56.642 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "fpga.kicad_sch"
@@ -791,7 +786,7 @@
 				(justify right)
 			)
 		)
-		(pin "B13{IDC_DB}" bidirectional
+		(pin "J2_B13{DB}" bidirectional
 			(at 105.41 27.94 180)
 			(uuid "92ec73f2-cd23-4c31-b20d-d5d1a0e89c4d")
 			(effects
@@ -801,7 +796,7 @@
 				(justify left)
 			)
 		)
-		(pin "B14{IDC_DB}" bidirectional
+		(pin "J2_B15{DB}" bidirectional
 			(at 105.41 38.1 180)
 			(uuid "12ae8192-2915-4f8d-ae29-ed0eec57b448")
 			(effects
@@ -981,7 +976,7 @@
 				(justify left)
 			)
 		)
-		(pin "{FMC_I2C}" bidirectional
+		(pin "{I2C}" bidirectional
 			(at 140.97 88.9 270)
 			(uuid "1fe1a629-8d25-4591-8ce0-ee7e5b8676a1")
 			(effects
@@ -1087,7 +1082,7 @@
 			)
 		)
 		(pin "{VADJ_CTRL}" input
-			(at 186.69 125.73 180)
+			(at 186.69 156.21 180)
 			(uuid "6443d5ab-d1a4-4960-b52e-aaf12efe94b1")
 			(effects
 				(font
@@ -1099,7 +1094,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b"
-					(page "7")
+					(page "27")
 				)
 			)
 		)

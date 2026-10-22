@@ -33295,7 +33295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4997d5ca-a0e0-4b24-9715-59ecdebad35b")
-		(property "Reference" "U12"
+		(property "Reference" "U1"
 			(at 104.14 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -33317,7 +33317,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_BGA:Xilinx_FFG900_FFG901"
 			(at 104.14 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -36052,7 +36052,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8/5601c772-9d70-4d6a-b42b-748160249e32"
-					(reference "U12")
+					(reference "U1")
 					(unit 12)
 				)
 			)
@@ -36070,7 +36070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ea4f8e5-ae61-4bfa-a9b6-adf0cd613b7e")
-		(property "Reference" "U12"
+		(property "Reference" "U1"
 			(at 195.58 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -36092,7 +36092,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_BGA:Xilinx_FFG900_FFG901"
 			(at 195.58 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -38827,7 +38827,7 @@
 		(instances
 			(project "uranus-fpga-board"
 				(path "/11d4e4d4-71ba-48aa-ae73-e6b6dc32b11b/ae4670d8-3f7e-4e25-83c4-e414aeb132b8/5601c772-9d70-4d6a-b42b-748160249e32"
-					(reference "U12")
+					(reference "U1")
 					(unit 13)
 				)
 			)
